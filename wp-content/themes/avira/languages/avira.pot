@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Avira\n"
+"POT-Creation-Date: 2018-09-21 11:16+0530\n"
+"PO-Revision-Date: 2018-09-21 11:16+0530\n"
+"Last-Translator: \n"
+"Language-Team: Specia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\work\\free\\wp-content\\themes\\avira\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\work\\free\\wp-content\\themes"
+"\\avira\n"
+
+#: C:\xampp\htdocs\work\free\wp-content\themes\avira/inc/customize/avira-premium.php:7
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: C:\xampp\htdocs\work\free\wp-content\themes\avira/inc/customize/avira-premium.php:23
+msgid "Premium Demo"
+msgstr ""
+
+#: C:\xampp\htdocs\work\free\wp-content\themes\avira/inc/customize/avira-premium.php:25
+msgid "View Details"
+msgstr ""
+
+#: C:\xampp\htdocs\work\free\wp-content\themes\avira/inc/customize/avira-premium.php:27
+msgid "Buy Now"
+msgstr ""
+
+#: C:\xampp\htdocs\work\free\wp-content\themes\avira/inc/customize/avira-premium.php:29
+msgid "Our Themes"
+msgstr ""
+
+#: C:\xampp\htdocs\work\free\wp-content\themes\avira/inc/customize/avira-premium.php:31
+msgid "Support Center"
+msgstr ""

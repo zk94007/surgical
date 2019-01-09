@@ -1,0 +1,44 @@
+
+
+/* --------------------------------------------------------------
+GENERAL ELEMENTS
+-------------------------------------------------------------- */
+
+/* BODY */
+html body { direction:rtl; unicode-bidi: embed; text-align:right; }
+
+
+/* INLINE IMAGES */
+.alignleft, img.alignleft { float:right; margin-right:0; margin-left:30px; }
+.alignright, img.alignright { float:left; margin-right:30px; margin-left:0; }
+
+
+/* MAIN/CONTENT */
+.content { float:right; }
+/* Single Sidebar Positions */
+.sidebar-left .content { float:right; margin-right:0; margin-left:4%; }
+/* Double Sidebar Positions */
+.sidebar-double .content { float:right; margin-left:4%; margin-right:27%; }
+.sidebar-double-left .content { float:right; margin-right:4%; margin-left:0; }
+
+
+/* SIDEBARS */
+.sidebar { float:right; }
+/* Secondary Sidebar */
+.sidebar-secondary { margin-right:4%; margin-left:0; }
+.sidebar-double .sidebar-primary { float:right; margin-right:0; margin-left:-77%; }
+.sidebar-double .sidebar-secondary { margin-right:0; }
+
+
+/* GENERAL WIDGET STYLING */
+.widget li ul { margin-left:0; margin-right:20px; }
+
+
+/* COLUMNS */
+.column { float:right; margin-left:5%; margin-right:0; }
+.column:last-child { margin-left:0; }
+.column.col-last { margin-left:0; }
+/* Columns with half padding */
+.column-narrow { display:block; float:left; margin-right:2%; }
+/* Columns with no padding */
+.column-fit { display:block; float:left; margin-right:0; }

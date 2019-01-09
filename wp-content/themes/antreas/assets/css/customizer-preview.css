@@ -1,0 +1,36 @@
+#tagline > .customize-partial-edit-shortcut,
+#features > .customize-partial-edit-shortcut,
+#portfolio > .customize-partial-edit-shortcut,
+#services > .customize-partial-edit-shortcut,
+#testimonials > .customize-partial-edit-shortcut,
+#clients > .customize-partial-edit-shortcut,
+#team > .customize-partial-edit-shortcut,
+#slider > .customize-partial-edit-shortcut {
+	z-index: 9999;
+	right: 10px;
+	top: 10px;
+}
+
+#tagline,
+#features,
+#portfolio,
+#testimonials,
+#clients,
+#team,
+#services,
+#slider,
+.footer-content .copyright,
+.footer-content .cpo-credit-link {
+	position: relative;
+}
+
+.footer-content .cpo-credit-link > span {
+	right: -35px;
+}
+.footer-content .copyright > span {
+	left: -5px;
+}
+
+a.customize-unpreviewable.post-edit-link {
+	cursor: pointer !important;
+}

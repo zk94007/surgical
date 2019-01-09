@@ -1,0 +1,149 @@
+
+/*
+** 
+*/
+.cfb_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.flipbox-title {
+    text-align: -webkit-center;
+	text-align:center;
+    font-size: larger;
+    font-family: monospace;
+}
+.flip {
+  -webkit-perspective: 800;   
+          perspective: 800;
+        position: relative;
+        text-align: center;
+		margin-bottom:30px;
+}
+.face{
+    word-break: break-all;
+    word-break: break-word;
+    height: auto!important;
+}
+.flip .x .front, .flip .y .front {
+   position: absolute;
+   z-index: 1;
+   width: 100%;
+}
+.flip .x img, .flip .y img{
+  
+   border: 2px solid #000;
+   object-fit: cover;
+}
+
+.aio-icon-img {
+    width: 2em;
+    max-width: 100%!important;
+    -webkit-border-radius: 0!important;
+    border-radius: 0!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    display: block;
+    font-size: inherit;
+}
+
+.ifb-flip-box-section {
+    display: block;
+    position: relative;
+    top: 0;
+	transform: none;
+    height: auto;
+	
+	padding: 30px;
+}
+
+.ifb-flip-box-section-content p {
+    padding: 0px;
+	margin: 13px!important;
+}
+
+.ifb-flip-box-section-content h3 {
+	margin-top:-1.565217em !important;
+	
+	
+}
+button.btn.btn-default {
+    position: relative;
+	display: inline-block;
+}
+ 
+.inner{
+	height: 100%;
+}
+.flip .inner img {
+    z-index: 1;
+    border: 2px solid #000;
+    width: 100%;
+    height: -webkit-fill-available;
+    object-fit: cover;
+}
+
+.face.back .flip_link a{
+  color:#fff;
+}
+.flip-label{
+    margin-top:5px;	
+}
+.flip-box-icon_default {
+    margin-top: -28px;
+}
+
+.flip .inner-with-image img{
+	    z-index: 1;
+    border: 2px solid #000;
+    width: 100%;
+    
+    min-height: 300px;
+    object-fit: cover;
+}
+.ifb-flip-box-section-with-image .inner{
+	min-height: 300px;
+}
+.image-label {
+    margin-top: 20px;
+}
+.back .text-center{
+    padding: 30px!important;
+}
+.default-label {
+    margin-top: -26px !important;
+}
+.inner-with-image {
+    min-height: 300px;
+}
+
+.face.back p, .with-image .image-title {
+    color: #ffffff;
+}
+
+@media screen and (orientation:landscape) {
+ 
+	.inner-with-image img {
+    height: 300px;
+    vertical-align: middle;
+}
+	.ifb-flip-box-section-with-image{
+		height: 300px;
+	}
+
+}
+
+  @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+	.inner-with-image img {
+    height: 300px;
+   
+}
+	.ifb-flip-box-section-with-image{
+		height: 300px;
+	}
+}
+
