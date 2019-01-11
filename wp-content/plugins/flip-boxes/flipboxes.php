@@ -489,7 +489,7 @@ if( !class_exists( 'CflipBoxes' ) )
 			wp_register_style( 'cfb-fontawesome',CFB_URL . 'assets/css/font-awesome.min.css', array(), CFB_VERSION);
 
 			wp_register_style( 'flipstyle',CFB_URL . 'assets/css/flipboxes.css', array(), CFB_VERSION);
-			wp_register_style( 'flip-layout-style',CFB_URL . 'assets/css/flipboxes-layout.min.css', array(), CFB_VERSION);
+			wp_register_style( 'flip-layout-style',CFB_URL . 'assets/css/flipboxes-layout.css', array(), CFB_VERSION);
 			
 			wp_register_style( 'cfb-bootstrap',CFB_URL . 'assets/css/bootstrap.min.css', array(), CFB_VERSION ,'all');
 			

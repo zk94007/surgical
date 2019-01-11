@@ -10,7 +10,6 @@
     perspective: 800;
     position: relative;
     text-align: center;
-	margin-bottom:30px;
 }
 .cfb-face.front {
     height: auto!important;
@@ -42,11 +41,12 @@
     font-weight: 300;
     font-style: normal;
     padding: 10px 20px;
-    -webkit-border-radius: 40px;
+    /*-webkit-border-radius: 40px;
     -moz-border-radius: 40px;
     -ms-border-radius: 40px;
     -o-border-radius: 40px;
     border-radius: 40px;
+    */
     word-break: break-word;
 }
 .cfb-link_text:hover{
@@ -65,7 +65,7 @@
     position: relative;
     top: 0;
 	transform: none;
-    height: auto;
+    height: 100%;
 	padding: 30px;
 }
 .cfb-front-desc {
@@ -84,6 +84,17 @@
 }
 .cfb-link_text {
     padding: 3px 11px;
+    font-size: 20px;
+}
+.cfb-link_text:after {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: "\f0da";
+	padding-left: 10px;
 }
 
 
@@ -100,56 +111,86 @@
 .cfb_wrapper.layout-4 .cfb-title {
     width: 100%;
     float: left;
-    margin-top: 30px;
+    margin-top: 100px;
+    position: absolute;
     word-break: break-word;
 }
 .cfb_wrapper.layout-4 .cfb-front-title {
-    margin-top: 30px;
+    margin-top: 60px;
     color: #ffffff;
     width: 100%;
     float: left;
     text-align: Center;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: normal;
     font-family: "Open Sans";
-    font-weight: 600;
     font-style: normal;
 }
 .cfb_wrapper.layout-4 .cfb-icon-img{
     font-size:32px!important;
 }
 .cfb_wrapper.layout-4 .cfb-icon-img .fa {
-    line-height: 60px;
-   
+    line-height: 50px;
+    font-size: 64px;
 }
 .cfb_wrapper.layout-4 .cfb-face .cfb-data {
-    padding: 8px;
-    border: 5px solid white;
+    padding: 0;
 }
 .cfb_wrapper.layout-4 .cfb-inner-data {
-    padding: 4px;
     width: 100%;
+    height: 100%;
 }
 .cfb_wrapper.layout-4 .cfb-icon-img {
     position: absolute;
     left: 50%;
-    background: rgba(255, 255, 255, 1);
     height: 60px;
     width: 60px;
-    bottom: -30px;
     border-radius: 60px;
     transform: translateX(-50%); 
     text-align: center;
     display:inline-block;
 }
 .cfb_wrapper.layout-4 .cfb-image {
-    width: 100%;
+    width: 400px;
+    height: 350px;
     max-width: 100%;
     float: left;
     position: relative;
-   
+}
+.cfb_wrapper.layout-4 .cfb-image img {
+    height: 100%;
+    width: 100%;
+}
+.cfb_wrapper.layout-4 .cfb-image .cover-layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.8;
+    margin: 0;
+    padding: 0;
 }
 .cfb_wrapper.layout-4 .cfb-desc {
     padding: 10px;
+    height: 100%;
+}
+.cfb_wrapper.layout-4 .cfb-desc .cfb-icon-img {
+    margin-top: 15px;
+}
+.cfb_wrapper.layout-4 .cfb-desc .cfb-icon-img .fa {
+    font-size: 40px;
+    padding-top: 5px;
+    vertical-align: middle;
+}
+.cfb_wrapper.layout-4 .cfb-desc .cfb-back-title {
+    font-weight: normal;
+    margin: 50px 0 8px 0;
+    font-size: 20px;
+}
+.cfb_wrapper.layout-4 .cfb-desc .cfb-back-content {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
 }
 
 
