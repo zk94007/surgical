@@ -10,7 +10,7 @@
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package WordPress
- * @subpackage Twenty_Seventeen
+ * @subpackage Surgical
  * @since 1.0
  * @version 1.0
  */
@@ -24,7 +24,7 @@ get_header(); ?>
 		</header>
 	<?php else : ?>
 	<header class="page-header">
-		<h2 class="page-title"><?php _e( 'Posts', 'twentyseventeen' ); ?></h2>
+		<h2 class="page-title"><?php _e( 'Posts', 'surgical' ); ?></h2>
 	</header>
 	<?php endif; ?>
 
@@ -47,9 +47,9 @@ get_header(); ?>
 				endwhile;
 
 				the_posts_pagination( array(
-					'prev_text' => twentyseventeen_get_svg( array( 'icon' => 'arrow-left' ) ) . '<span class="screen-reader-text">' . __( 'Previous page', 'twentyseventeen' ) . '</span>',
-					'next_text' => '<span class="screen-reader-text">' . __( 'Next page', 'twentyseventeen' ) . '</span>' . twentyseventeen_get_svg( array( 'icon' => 'arrow-right' ) ),
-					'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'twentyseventeen' ) . ' </span>',
+					'prev_text' => surgical_get_svg( array( 'icon' => 'arrow-left' ) ) . '<span class="screen-reader-text">' . __( 'Previous page', 'surgical' ) . '</span>',
+					'next_text' => '<span class="screen-reader-text">' . __( 'Next page', 'surgical' ) . '</span>' . surgical_get_svg( array( 'icon' => 'arrow-right' ) ),
+					'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'surgical' ) . ' </span>',
 				) );
 
 			else :

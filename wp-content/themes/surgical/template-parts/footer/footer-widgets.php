@@ -3,7 +3,7 @@
  * Displays footer widgets if assigned
  *
  * @package WordPress
- * @subpackage Twenty_Seventeen
+ * @subpackage Surgical
  * @since 1.0
  * @version 1.0
  */
@@ -15,7 +15,7 @@ if ( is_active_sidebar( 'sidebar-2' ) ||
 	 is_active_sidebar( 'sidebar-3' ) ) :
 ?>
 
-	<aside class="widget-area" role="complementary" aria-label="<?php esc_attr_e( 'Footer', 'twentyseventeen' ); ?>">
+	<aside class="widget-area" role="complementary" aria-label="<?php esc_attr_e( 'Footer', 'surgical' ); ?>">
 		<?php
 		if ( is_active_sidebar( 'sidebar-2' ) ) { ?>
 			<div class="widget-column footer-widget-1">

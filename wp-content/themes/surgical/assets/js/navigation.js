@@ -1,4 +1,4 @@
-/* global twentyseventeenScreenReaderText */
+/* global surgicalScreenReaderText */
 /**
  * Theme functions file.
  *
@@ -12,8 +12,8 @@
 
 		// Add dropdown toggle that displays child menu items.
 		var dropdownToggle = $( '<button />', { 'class': 'dropdown-toggle', 'aria-expanded': false })
-			.append( twentyseventeenScreenReaderText.icon )
-			.append( $( '<span />', { 'class': 'screen-reader-text', text: twentyseventeenScreenReaderText.expand }) );
+			.append( surgicalScreenReaderText.icon )
+			.append( $( '<span />', { 'class': 'screen-reader-text', text: surgicalScreenReaderText.expand }) );
 
 		container.find( '.menu-item-has-children > a, .page_item_has_children > a' ).after( dropdownToggle );
 
@@ -22,7 +22,7 @@
 			.addClass( 'toggled-on' )
 			.attr( 'aria-expanded', 'true' )
 			.find( '.screen-reader-text' )
-			.text( twentyseventeenScreenReaderText.collapse );
+			.text( surgicalScreenReaderText.collapse );
 		// Set the active submenu initial state.
 		container.find( '.current-menu-ancestor > .sub-menu' ).addClass( 'toggled-on' );
 
@@ -36,7 +36,7 @@
 
 			_this.attr( 'aria-expanded', _this.attr( 'aria-expanded' ) === 'false' ? 'true' : 'false' );
 
-			screenReaderSpan.text( screenReaderSpan.text() === twentyseventeenScreenReaderText.expand ? twentyseventeenScreenReaderText.collapse : twentyseventeenScreenReaderText.expand );
+			screenReaderSpan.text( screenReaderSpan.text() === surgicalScreenReaderText.expand ? surgicalScreenReaderText.collapse : surgicalScreenReaderText.expand );
 		});
 	}
 
@@ -58,7 +58,7 @@
 		// Add an initial value for the attribute.
 		menuToggle.attr( 'aria-expanded', 'false' );
 
-		menuToggle.on( 'click.twentyseventeen', function() {
+		menuToggle.on( 'click.surgical', function() {
 			siteNavContain.toggleClass( 'toggled-on' );
 
 			$( this ).attr( 'aria-expanded', siteNavContain.hasClass( 'toggled-on' ) );
@@ -75,14 +75,14 @@
 		function toggleFocusClassTouchScreen() {
 			if ( 'none' === $( '.menu-toggle' ).css( 'display' ) ) {
 
-				$( document.body ).on( 'touchstart.twentyseventeen', function( e ) {
+				$( document.body ).on( 'touchstart.surgical', function( e ) {
 					if ( ! $( e.target ).closest( '.main-navigation li' ).length ) {
 						$( '.main-navigation li' ).removeClass( 'focus' );
 					}
 				});
 
 				siteNavigation.find( '.menu-item-has-children > a, .page_item_has_children > a' )
-					.on( 'touchstart.twentyseventeen', function( e ) {
+					.on( 'touchstart.surgical', function( e ) {
 						var el = $( this ).parent( 'li' );
 
 						if ( ! el.hasClass( 'focus' ) ) {
@@ -93,16 +93,16 @@
 					});
 
 			} else {
-				siteNavigation.find( '.menu-item-has-children > a, .page_item_has_children > a' ).unbind( 'touchstart.twentyseventeen' );
+				siteNavigation.find( '.menu-item-has-children > a, .page_item_has_children > a' ).unbind( 'touchstart.surgical' );
 			}
 		}
 
 		if ( 'ontouchstart' in window ) {
-			$( window ).on( 'resize.twentyseventeen', toggleFocusClassTouchScreen );
+			$( window ).on( 'resize.surgical', toggleFocusClassTouchScreen );
 			toggleFocusClassTouchScreen();
 		}
 
-		siteNavigation.find( 'a' ).on( 'focus.twentyseventeen blur.twentyseventeen', function() {
+		siteNavigation.find( 'a' ).on( 'focus.surgical blur.surgical', function() {
 			$( this ).parents( '.menu-item, .page_item' ).toggleClass( 'focus' );
 		});
 	})();

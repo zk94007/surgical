@@ -1,13 +1,13 @@
 /*
-Theme Name: Twenty Seventeen
-Theme URI: https://wordpress.org/themes/twentyseventeen/
+Theme Name: Surgical
+Theme URI: https://wordpress.org/themes/surgical/
 Author: the WordPress team
 Author URI: https://wordpress.org/
-Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Description: Surgical brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
 Version: 1.9
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: twentyseventeen
+Text Domain: surgical
 Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
 
 This theme, like WordPress, is licensed under the GPL.
@@ -52,7 +52,7 @@ Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
 --------------------------------------------------------------*/
 
 html {
-	font-family: sans-serif;
+	font-family: FFDinWeb,Helvetica,Arial,sans-serif;
 	line-height: 1.15;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -1653,8 +1653,8 @@ body:not(.title-tagline-hidden) .site-branding-text {
 	position: relative;
 }
 
-.has-header-image.twentyseventeen-front-page .custom-header,
-.has-header-video.twentyseventeen-front-page .custom-header,
+.has-header-image.surgical-front-page .custom-header,
+.has-header-video.surgical-front-page .custom-header,
 .has-header-image.home.blog .custom-header,
 .has-header-video.home.blog .custom-header {
 	display: table;
@@ -1734,7 +1734,7 @@ body:not(.title-tagline-hidden) .site-branding-text {
 	top: 62px;
 }
 
-.has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+.has-header-image:not(.surgical-front-page):not(.home) .custom-header-media img {
 	bottom: 0;
 	position: absolute;
 	top: auto;
@@ -1749,7 +1749,7 @@ body:not(.title-tagline-hidden) .site-branding-text {
 	.has-header-image .custom-header-media img,
 	.has-header-video .custom-header-media video,
 	.has-header-video .custom-header-media iframe,
-	.has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+	.has-header-image:not(.surgical-front-page):not(.home) .custom-header-media img {
 		height: 100%;
 		left: 0;
 		-o-object-fit: cover;
@@ -1769,8 +1769,8 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 	display: none;
 }
 
-.has-header-image.twentyseventeen-front-page .site-branding,
-.has-header-video.twentyseventeen-front-page .site-branding,
+.has-header-image.surgical-front-page .site-branding,
+.has-header-video.surgical-front-page .site-branding,
 .has-header-image.home.blog .site-branding,
 .has-header-video.home.blog .site-branding {
 	display: table-cell;
@@ -1782,11 +1782,11 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 13.2 Front Page
 --------------------------------------------------------------*/
 
-.twentyseventeen-front-page .site-content {
+.surgical-front-page .site-content {
 	padding: 0;
 }
 
-.twentyseventeen-panel {
+.surgical-panel {
 	overflow: hidden;
 	position: relative;
 }
@@ -1814,7 +1814,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 	top: 100px;
 }
 
-.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child) {
+.surgical-front-page article:not(.has-post-thumbnail):not(:first-child) {
 	border-top: 1px solid #ddd;
 }
 
@@ -1829,19 +1829,19 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 
 /* Panel edit link */
 
-.twentyseventeen-panel .edit-link {
+.surgical-panel .edit-link {
 	display: block;
 	margin: 0.3em 0 0;
 }
 
-.twentyseventeen-panel .entry-header .edit-link {
+.surgical-panel .entry-header .edit-link {
 	font-size: 14px;
 	font-size: 0.875rem;
 }
 
 /* Front Page - Recent Posts */
 
-.twentyseventeen-front-page .panel-content .recent-posts article {
+.surgical-front-page .panel-content .recent-posts article {
 	border: 0;
 	color: #333;
 	margin-bottom: 3em;
@@ -1859,7 +1859,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 	text-transform: none;
 }
 
-.twentyseventeen-panel .recent-posts .entry-header .edit-link {
+.surgical-panel .recent-posts .entry-header .edit-link {
 	color: #222;
 	display: inline-block;
 	font-size: 11px;
@@ -1905,7 +1905,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 
 .page .panel-content .entry-title,
 .page-title,
-body.page:not(.twentyseventeen-front-page) .entry-title {
+body.page:not(.surgical-front-page) .entry-title {
 	color: #222;
 	font-size: 14px;
 	font-size: 0.875rem;
@@ -2042,18 +2042,18 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 	padding-bottom: 2em;
 }
 
-body:not(.twentyseventeen-front-page) .entry-header {
+body:not(.surgical-front-page) .entry-header {
 	padding: 1em 0;
 }
 
-body:not(.twentyseventeen-front-page) .entry-header,
-body:not(.twentyseventeen-front-page) .entry-content,
-body:not(.twentyseventeen-front-page) #comments {
+body:not(.surgical-front-page) .entry-header,
+body:not(.surgical-front-page) .entry-content,
+body:not(.surgical-front-page) #comments {
 	margin-left: auto;
 	margin-right: auto;
 }
 
-body:not(.twentyseventeen-front-page) .entry-header {
+body:not(.surgical-front-page) .entry-header {
 	padding-top: 0;
 }
 
@@ -2088,7 +2088,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 /* Single Post */
 
 .single-post:not(.has-sidebar) #primary,
-.page.page-one-column:not(.twentyseventeen-front-page) #primary,
+.page.page-one-column:not(.surgical-front-page) #primary,
 .archive.page-one-column:not(.has-sidebar) .page-header,
 .archive.page-one-column:not(.has-sidebar) #primary {
 	margin-left: auto;
@@ -3099,7 +3099,67 @@ p > object:only-child {
 17.0 Customizer
 --------------------------------------------------------------*/
 
-.highlight-front-sections.twentyseventeen-customizer.twentyseventeen-front-page .twentyseventeen-panel:after {
+.homepage-article-header {
+	color: #862633;
+	font-size: 2.6rem;
+	line-height: 3.2rem;
+	text-align: center;
+	padding: 0 50px;
+	margin: 100px 0 50px;
+}
+
+.homepage-article-subtitle, .homepage-article-content {
+	font-size: 18px;
+	line-height: 35px;
+	text-align: center;
+	padding: 0 50px;
+}
+
+.homepage-article-subtitle {
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.homepage-article-content a,
+.homepage-article-content a:hover {
+	color: #0076a8;
+	text-decoration: none;
+	transition: none;
+	box-shadow: none;
+}
+
+.contact-link {
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	padding: 5px 0;
+}
+
+.contact-link a,
+.contact-link a:hover {
+	display: inline-block;
+	overflow: hidden;
+    padding: 15px 50px 10px;
+	transition: none;
+	box-shadow: none;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #862633;
+    color: #fff;
+}
+
+.contact-link a::after {
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: "\f0da";
+	padding-left: 10px;
+}
+
+.highlight-front-sections.surgical-customizer.surgical-front-page .surgical-panel:after {
 	border: 2px dashed #0085ba; /* Matches visible edit shortcuts. */
 	bottom: 1em;
 	content: "";
@@ -3111,12 +3171,12 @@ p > object:only-child {
 	z-index: 1;
 }
 
-.highlight-front-sections.twentyseventeen-customizer.twentyseventeen-front-page .twentyseventeen-panel .panel-content {
+.highlight-front-sections.surgical-customizer.surgical-front-page .surgical-panel .panel-content {
 	z-index: 2; /* Prevent :after from preventing interactions within the section */
 }
 
 /* Used for placeholder text */
-.twentyseventeen-customizer.twentyseventeen-front-page .twentyseventeen-panel .twentyseventeen-panel-title {
+.surgical-customizer.surgical-front-page .surgical-panel .surgical-panel-title {
 	display: block;
 	font-size: 14px;
 	font-size: 0.875rem;
@@ -3128,22 +3188,22 @@ p > object:only-child {
 }
 
 /* Show borders on the custom page panels only when the front page sections are being edited */
-.highlight-front-sections.twentyseventeen-customizer.twentyseventeen-front-page .twentyseventeen-panel:nth-of-type(1):after {
+.highlight-front-sections.surgical-customizer.surgical-front-page .surgical-panel:nth-of-type(1):after {
 	border: none;
 }
 
-.twentyseventeen-front-page.twentyseventeen-customizer #primary article.panel-placeholder {
+.surgical-front-page.surgical-customizer #primary article.panel-placeholder {
 	border: 0;
 }
 
 /* Add some space around the visual edit shortcut buttons. */
-.twentyseventeen-panel > .customize-partial-edit-shortcut > button {
+.surgical-panel > .customize-partial-edit-shortcut > button {
 	top: 30px;
 	left: 30px;
 }
 
 /* Ensure that placeholder icons are visible. */
-.twentyseventeen-panel .customize-partial-edit-shortcut-hidden:before {
+.surgical-panel .customize-partial-edit-shortcut-hidden:before {
 	visibility: visible;
 }
 
@@ -3298,11 +3358,13 @@ p > object:only-child {
 	}
 
 	.page-one-column .panel-content .wrap {
-		max-width: 740px;
+		max-width: 1300px;
+		padding-top: 0;
 	}
 
 	.panel-content .entry-header {
 		margin-bottom: 4.5em;
+		display: none;
 	}
 
 	.panel-content .recent-posts .entry-header {
@@ -3400,8 +3462,8 @@ p > object:only-child {
 		margin-bottom: 0;
 	}
 
-	.has-header-image.twentyseventeen-front-page .site-branding,
-	.has-header-video.twentyseventeen-front-page .site-branding,
+	.has-header-image.surgical-front-page .site-branding,
+	.has-header-video.surgical-front-page .site-branding,
 	.has-header-image.home.blog .site-branding,
 	.has-header-video.home.blog .site-branding {
 		bottom: 0;
@@ -3413,8 +3475,8 @@ p > object:only-child {
 		width: 100%;
 	}
 
-	.has-header-image.twentyseventeen-front-page .custom-header,
-	.has-header-video.twentyseventeen-front-page .custom-header,
+	.has-header-image.surgical-front-page .custom-header,
+	.has-header-video.surgical-front-page .custom-header,
 	.has-header-image.home.blog .custom-header,
 	.has-header-video.home.blog .custom-header {
 		display: block;
@@ -3426,16 +3488,16 @@ p > object:only-child {
 		position: relative;
 	}
 
-	.twentyseventeen-front-page.has-header-image .custom-header-media,
-	.twentyseventeen-front-page.has-header-video .custom-header-media,
+	.surgical-front-page.has-header-image .custom-header-media,
+	.surgical-front-page.has-header-video .custom-header-media,
 	.home.blog.has-header-image .custom-header-media,
 	.home.blog.has-header-video .custom-header-media {
 		height: 0;
 		position: relative;
 	}
 
-	.has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media,
-	.has-header-video:not(.twentyseventeen-front-page):not(.home) .custom-header-media {
+	.has-header-image:not(.surgical-front-page):not(.home) .custom-header-media,
+	.has-header-video:not(.surgical-front-page):not(.home) .custom-header-media {
 		bottom: 0;
 		height: auto;
 		left: 0;
@@ -3716,15 +3778,15 @@ p > object:only-child {
 
 	/* Front Page */
 
-	.twentyseventeen-front-page.has-header-image .site-branding,
-	.twentyseventeen-front-page.has-header-video .site-branding,
+	.surgical-front-page.has-header-image .site-branding,
+	.surgical-front-page.has-header-video .site-branding,
 	.home.blog.has-header-image .site-branding,
 	.home.blog.has-header-video .site-branding {
 		margin-bottom: 70px;
 	}
 
-	.twentyseventeen-front-page.has-header-image .custom-header-media,
-	.twentyseventeen-front-page.has-header-video .custom-header-media,
+	.surgical-front-page.has-header-image .custom-header-media,
+	.surgical-front-page.has-header-video .custom-header-media,
 	.home.blog.has-header-image .custom-header-media,
 	.home.blog.has-header-video .custom-header-media {
 		height: 1200px;
@@ -3733,15 +3795,15 @@ p > object:only-child {
 		overflow: hidden;
 	}
 
-	.twentyseventeen-front-page.has-header-image .custom-header-media:before,
-	.twentyseventeen-front-page.has-header-video .custom-header-media:before,
+	.surgical-front-page.has-header-image .custom-header-media:before,
+	.surgical-front-page.has-header-video .custom-header-media:before,
 	.home.blog.has-header-image .custom-header-media:before,
 	.home.blog.has-header-video .custom-header-media:before {
 		height: 33%;
 	}
 
-	.admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media,
-	.admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media,
+	.admin-bar.surgical-front-page.has-header-image .custom-header-media,
+	.admin-bar.surgical-front-page.has-header-video .custom-header-media,
 	.admin-bar.home.blog.has-header-image .custom-header-media,
 	.admin-bar.home.blog.has-header-video .custom-header-media {
 		height: calc(100vh - 32px);
@@ -3936,7 +3998,7 @@ p > object:only-child {
 	/* blog and archive */
 
 	.blog:not(.has-sidebar) .entry-content blockquote.alignleft,
-	.twentyseventeen-front-page.page-two-column .entry-content blockquote.alignleft,
+	.surgical-front-page.page-two-column .entry-content blockquote.alignleft,
 	.archive:not(.has-sidebar) .entry-content blockquote.alignleft,
 	.page-two-column .entry-content blockquote.alignleft {
 		margin-left: -72.5%;
@@ -3944,7 +4006,7 @@ p > object:only-child {
 	}
 
 	.blog:not(.has-sidebar) .entry-content blockquote.alignright,
-	.twentyseventeen-front-page.page-two-column .entry-content blockquote.alignright,
+	.surgical-front-page.page-two-column .entry-content blockquote.alignright,
 	.archive:not(.has-sidebar) .entry-content blockquote.alignright,
 	.page-two-column .entry-content blockquote.alignright {
 		margin-right: 0;
@@ -3960,7 +4022,7 @@ p > object:only-child {
 	/* Pages */
 
 	.page.page-one-column .entry-header,
-	.twentyseventeen-front-page.page-one-column .entry-header,
+	.surgical-front-page.page-one-column .entry-header,
 	.archive.page-one-column:not(.has-sidebar) .page-header {
 		margin-bottom: 4em;
 	}
@@ -4151,7 +4213,7 @@ p > object:only-child {
 	.blog:not(.has-sidebar) .entry-content blockquote.alignright,
 	.archive:not(.has-sidebar) .entry-content blockquote.alignright,
 	.page-two-column .entry-content blockquote.alignright,
-	.twentyseventeen-front-page .entry-content blockquote.alignright {
+	.surgical-front-page .entry-content blockquote.alignright {
 		margin-right: -20%;
 	}
 }
@@ -4238,7 +4300,7 @@ p > object:only-child {
 
 	.page .panel-content .entry-title,
 	.page-title,
-	body.page:not(.twentyseventeen-front-page) .entry-title {
+	body.page:not(.surgical-front-page) .entry-title {
 		font-size: 10pt;
 	}
 
@@ -4261,8 +4323,8 @@ p > object:only-child {
 		padding: 0;
 	}
 
-	.twentyseventeen-front-page.has-header-image .site-branding,
-	.twentyseventeen-front-page.has-header-video .site-branding,
+	.surgical-front-page.has-header-image .site-branding,
+	.surgical-front-page.has-header-video .site-branding,
 	.home.blog.has-header-image .site-branding,
 	.home.blog.has-header-video .site-branding {
 		position: relative;
@@ -4302,10 +4364,10 @@ p > object:only-child {
 	body,
 	a,
 	.site-title a,
-	.twentyseventeen-front-page.has-header-image .site-title,
-	.twentyseventeen-front-page.has-header-video .site-title,
-	.twentyseventeen-front-page.has-header-image .site-title a,
-	.twentyseventeen-front-page.has-header-video .site-title a {
+	.surgical-front-page.has-header-image .site-title,
+	.surgical-front-page.has-header-video .site-title,
+	.surgical-front-page.has-header-image .site-title a,
+	.surgical-front-page.has-header-video .site-title a {
 		color: #222 !important; /* Make sure color schemes don't affect to print */
 	}
 
@@ -4313,8 +4375,8 @@ p > object:only-child {
 	h5,
 	blockquote,
 	.site-description,
-	.twentyseventeen-front-page.has-header-image .site-description,
-	.twentyseventeen-front-page.has-header-video .site-description,
+	.surgical-front-page.has-header-image .site-description,
+	.surgical-front-page.has-header-video .site-description,
 	.entry-meta,
 	.entry-meta a {
 		color: #777 !important; /* Make sure color schemes don't affect to print */

@@ -7,7 +7,7 @@
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
  * @package WordPress
- * @subpackage Twenty_Seventeen
+ * @subpackage Surgical
  * @since 1.0
  * @version 1.0
  */
@@ -24,7 +24,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyseventeen' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'surgical' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
 
@@ -46,9 +46,9 @@
 	 * If a regular post or page, and not the front page, show the featured image.
 	 * Using get_queried_object_id() here since the $post global may not be set before a call to the_post().
 	 */
-	if ( ( is_single() || ( is_page() && ! twentyseventeen_is_frontpage() ) ) && has_post_thumbnail( get_queried_object_id() ) ) :
+	if ( ( is_single() || ( is_page() && ! surgical_is_frontpage() ) ) && has_post_thumbnail( get_queried_object_id() ) ) :
 		echo '<div class="single-featured-image-header">';
-		echo get_the_post_thumbnail( get_queried_object_id(), 'twentyseventeen-featured-image' );
+		echo get_the_post_thumbnail( get_queried_object_id(), 'surgical-featured-image' );
 		echo '</div><!-- .single-featured-image-header -->';
 	endif;
 	?>

@@ -1,10 +1,10 @@
 /*
-Theme Name: Twenty Seventeen
+Theme Name: Surgical
 Description: IE9 specific styles.
 */
 
-.has-header-image.twentyseventeen-front-page .custom-header,
-.has-header-video.twentyseventeen-front-page .custom-header,
+.has-header-image.surgical-front-page .custom-header,
+.has-header-video.surgical-front-page .custom-header,
 .has-header-image.home.blog .custom-header,
 .has-header-video.home.blog .custom-header {
 	height: 300px;
@@ -18,11 +18,11 @@ Description: IE9 specific styles.
 
 @media screen and (min-width: 30em) {
 
-	.has-header-image.twentyseventeen-front-page .custom-header,
-	.has-header-video.twentyseventeen-front-page .custom-header,
+	.has-header-image.surgical-front-page .custom-header,
+	.has-header-video.surgical-front-page .custom-header,
 	.has-header-image.home.blog .custom-header,
 	.has-header-video.home.blog .custom-header,
-	.twentyseventeen-front-page.has-header-image .custom-header-media,
+	.surgical-front-page.has-header-image .custom-header-media,
 	.home.blog.has-header-image .custom-header-media,
 	.panel-image {
 		height: 700px;
@@ -31,11 +31,11 @@ Description: IE9 specific styles.
 
 @media screen and (min-width: 48em) {
 
-	.has-header-image.twentyseventeen-front-page .custom-header,
-	.has-header-video.twentyseventeen-front-page .custom-header,
+	.has-header-image.surgical-front-page .custom-header,
+	.has-header-video.surgical-front-page .custom-header,
 	.has-header-image.home.blog .custom-header,
 	.has-header-video.home.blog .custom-header,
-	.twentyseventeen-front-page.has-header-image .custom-header-media,
+	.surgical-front-page.has-header-image .custom-header-media,
 	.home.blog.has-header-image .custom-header-media,
 	.panel-image {
 		height: 1000px;
