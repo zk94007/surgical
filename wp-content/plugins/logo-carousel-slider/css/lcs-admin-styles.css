@@ -1,0 +1,223 @@
+.lcs_settings_page .metabox-holder {
+    background: #ffffff;
+}
+
+.lcs_settings_page input.regular-text {
+    width: 15em;
+}
+
+#lcs_style_settings .regular-text, #lcs_slider_settings .regular-text {
+    width: 105px;
+}
+
+.lcs-th {
+    color: #222;
+    float: left;
+    font-weight: 600;
+    line-height: 1.3;
+    padding: 20px 10px 20px 0;
+    vertical-align: top;
+    width: 200px;
+}
+
+.lcs-th label {
+    display: block;
+    padding: 5px 0;
+}
+
+.postbox-container .lcs-th {
+    width: 10%;
+    padding: 0 1% 0 0;
+}
+
+.postbox-container .lcs-row {
+    padding: 0 0 1.8em;
+    margin: 0 0 .8em;
+}
+
+.postbox-container .lcs-th+.lcs-td {
+    width: 89%;
+    float: right;
+}
+
+.postbox-container .lcs-row {
+    padding: 0 0 1.8em;
+    margin: 0 0 .8em;
+}
+
+input.lcs-text-input {
+    width: 250px;
+}
+
+i.lcs_pro_ver_notice {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#lcs_slider_settings h3, #lcs_style_settings h3 {
+    display: none;
+}
+
+/*#lcs_slider_settings .form-table, #lcs_style_settings .form-table {
+    opacity: 0.3;
+}*/
+
+#lcs_slider_settings p.lcs_pro_notice, #lcs_style_settings p.lcs_pro_notice {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 22px 0 15px 10px;
+    font-style: italic;
+}
+
+#lcs_support .form-table th, #lcs_upgrade .form-table th {
+    width: 0;
+}
+
+.wrap h2 {
+    font-size: 19px;
+}
+
+#lcs_support p.submit, #lcs_upgrade p.submit {
+    display: none;
+}
+
+#lcs_upgrade ul {
+    margin: 0.7em 0 0 2.5em;
+    list-style: disc;    
+}
+
+.lcs-td.disabled input {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    pointer-events: none;
+}
+
+.wrap .lcs-upgrade-content-wrapper { 
+    padding: 25px;
+}
+
+.wrap h2.lcs-upgrade-title {
+    padding-bottom: 15px;
+}
+
+.logocarousel_page_shortcode_generator .lcs-upgrade-content-wrapper ul {
+    margin: 0 0 0 2.5em;
+    font-size: 14px;
+    list-style: disc;
+}
+
+.lcs-upgrade-content-wrapper p {
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.lcs-upgrade-content-wrapper li {
+    margin-bottom: 25px;
+}
+
+.lcs_settings_page .metabox-holder { 
+    padding: 0 7px; 
+}
+
+/*.lcs-upgrade-content-wrapper h3 {*/
+    /*font-size: 15px;*/
+/*}*/
+
+span.lcs_new_feature {
+    background: #0085ba;
+    color: #ffffff;
+    padding: 2px 4px;
+    font-size: 75%;
+    border-radius: 2px;
+}
+
+
+/* style for lcs support page*/
+.lcs_support_wrapper{
+    margin-top: 20px;
+}
+
+.lcs_support_wrapper .wrap{
+    float: left;
+    margin-right: 20px;
+}
+
+.lcs_support_wrapper .wrap.wrap_left {
+    width: 60%;
+}
+
+.lcs_support_wrapper .wrap.wrap_left .postbox h2{
+    margin: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ededed;
+}
+
+.lcs_support_wrapper .wrap.wrap_right {
+    width: 30%x;
+}
+
+.lcs_support_wrapper .wrap.wrap_right .text-center{
+    margin-left: 23px;
+}
+
+.lcs_support_wrapper .wrap.wrap_right .postbox{
+    background: #f0f9dc;
+    padding: 0 0 10px;
+}
+
+.lcs_pro_features li{
+    font-size: 13px;
+    line-height: 22px;
+    color: #333;
+    position: relative;
+    margin-bottom: 6px;
+}
+.lcs_pro_features li:before{
+    content: "\f522";
+    font-family: 'dashicons', san-serif;
+    margin-right: 4px;
+    display: inline-block;
+    vertical-align: -1.9px;
+}
+.lcs-upgrade-content-wrapper-right h3 {    
+    font-size: 15px;
+    font-weight: normal;
+    color: #ffffff;
+    background: #0085ba;
+    text-align: center;
+    padding: 12px 0;
+    margin: 0;
+}
+
+ul.lcs_pro_features {
+    padding: 0 23px;
+}
+
+/*Promotion Hacks on settings screen*/
+
+#lcs_general_settings tbody > tr:nth-child(3),
+#lcs_general_settings tbody > tr:nth-child(5) {
+    opacity:.5;
+}
+#lcs_general_settings tbody > tr:nth-child(3) td,
+#lcs_general_settings tbody > tr:nth-child(5) td {
+    margin-top: 0 ;
+    padding-top: 0;
+    line-height: 0;
+}
+#lcs_general_settings tbody > tr:nth-child(2) td,
+#lcs_general_settings tbody > tr:nth-child(4) td{
+    margin-bottom: 0 ;
+    padding-bottom: 0;
+    line-height: 0;
+}
+.lcs_pro_promo {
+    display: inline;
+    font-weight: bold;
+    background: #ffffff;
+    margin-left: -21px;
+    z-index: 999999;
+    position: absolute;
+}
