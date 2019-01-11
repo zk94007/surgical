@@ -14,6 +14,7 @@
 	position: relative;
 	visibility: hidden;
 	-moz-transform: translate3d(0 , 0 , 0);
+	border-bottom: 18px solid #974752;
 }
 
 
