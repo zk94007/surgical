@@ -1,0 +1,3252 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Product Catalog\n"
+"POT-Creation-Date: 2018-09-24 14:11-0400\n"
+"PO-Revision-Date: 2018-09-24 14:12-0400\n"
+"Last-Translator: \n"
+"Language-Team: Etoile Web Design\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Functions/Full_Upgrade.php:8
+msgid "Trial successfully started!"
+msgstr ""
+
+#: Functions/Full_Upgrade.php:23
+msgid "Trial successfully started."
+msgstr ""
+
+#: Functions/Initial_Data.php:13
+msgid "Sample Item"
+msgstr ""
+
+#: Functions/Initial_Data.php:14
+msgid "This is where your description of this product would go."
+msgstr ""
+
+#: Functions/Initial_Data.php:18 Functions/Initial_Data.php:24
+msgid "Sample Category"
+msgstr ""
+
+#: Functions/Initial_Data.php:25
+msgid "This is where your description of this category would go."
+msgstr ""
+
+#: Functions/Initial_Data.php:32
+msgid "Sample Catalogue"
+msgstr ""
+
+#: Functions/Initial_Data.php:33
+msgid "This is where your description of this catalogue would go."
+msgstr ""
+
+#: Functions/Prepare_Data_For_Insertion.php:42
+#: Functions/Prepare_Data_For_Insertion.php:85
+#: Functions/Prepare_Data_For_Insertion.php:589
+#: Functions/Prepare_Data_For_Insertion.php:633
+#: Functions/Prepare_Data_For_Insertion.php:635
+msgid "No file was uploaded."
+msgstr ""
+
+#: Functions/Prepare_Data_For_Insertion.php:76
+#: Functions/Prepare_Data_For_Insertion.php:580
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr ""
+
+#: Functions/Prepare_Data_For_Insertion.php:79
+#: Functions/Prepare_Data_For_Insertion.php:583
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr ""
+
+#: Functions/Prepare_Data_For_Insertion.php:82
+#: Functions/Prepare_Data_For_Insertion.php:586
+msgid "The uploaded file was only partially uploaded"
+msgstr ""
+
+#: Functions/Prepare_Data_For_Insertion.php:89
+#: Functions/Prepare_Data_For_Insertion.php:593
+msgid "Missing a temporary folder"
+msgstr ""
+
+#: Functions/Prepare_Data_For_Insertion.php:92
+#: Functions/Prepare_Data_For_Insertion.php:596
+msgid "Failed to write file to disk"
+msgstr ""
+
+#: Functions/Prepare_Data_For_Insertion.php:95
+#: Functions/Prepare_Data_For_Insertion.php:599
+msgid "File upload stopped by extension"
+msgstr ""
+
+#: Functions/Prepare_Data_For_Insertion.php:99
+#: Functions/Prepare_Data_For_Insertion.php:603
+msgid "No error code avaiable"
+msgstr ""
+
+#: Functions/Prepare_Data_For_Insertion.php:104
+#: Functions/Prepare_Data_For_Insertion.php:608
+msgid "No file was uploaded here.."
+msgstr ""
+
+#: Functions/Prepare_Data_For_Insertion.php:108
+msgid "File must be .csv, .xls, .xlsx"
+msgstr ""
+
+#: Functions/Prepare_Data_For_Insertion.php:149
+#: Functions/Prepare_Data_For_Insertion.php:167
+msgid "Products have been successfully deleted."
+msgstr ""
+
+#: Functions/Prepare_Data_For_Insertion.php:319
+msgid "Categories have been successfully deleted."
+msgstr ""
+
+#: Functions/Prepare_Data_For_Insertion.php:368
+msgid "Sub-Categories have been successfully deleted."
+msgstr ""
+
+#: Functions/Prepare_Data_For_Insertion.php:418
+msgid "Tag(s) have been successfully deleted."
+msgstr ""
+
+#: Functions/Prepare_Data_For_Insertion.php:501
+msgid "Field(s) have been successfully deleted."
+msgstr ""
+
+#: Functions/Prepare_Data_For_Insertion.php:549
+msgid "Catalogues have been successfully deleted."
+msgstr ""
+
+#: Functions/Prepare_Data_For_Insertion.php:565
+msgid "Catalogue items have been successfully deleted."
+msgstr ""
+
+#: Functions/Shortcodes.php:112
+msgid " products"
+msgstr ""
+
+#: Functions/Shortcodes.php:117 Functions/Shortcodes.php:1716
+msgid "Product Search:"
+msgstr ""
+
+#: Functions/Shortcodes.php:118 Functions/Shortcodes.php:1717
+msgid "Product Name:"
+msgstr ""
+
+#: Functions/Shortcodes.php:124 Functions/Shortcodes.php:1723
+msgid "Search..."
+msgstr ""
+
+#: Functions/Shortcodes.php:125 Functions/Shortcodes.php:1724
+msgid "Name..."
+msgstr ""
+
+#: Functions/Shortcodes.php:129
+msgid " of "
+msgstr ""
+
+#: Functions/Shortcodes.php:247 Functions/Shortcodes.php:826
+#: Functions/Shortcodes.php:1413
+msgid "Details"
+msgstr ""
+
+#: Functions/Shortcodes.php:656 Functions/Shortcodes.php:657
+#: html/CategoryDetails.php:16 html/CategoryDetails.php:35
+#: html/ProductsPage.php:319
+msgid "Product Name"
+msgstr ""
+
+#: Functions/Shortcodes.php:828
+msgid "Images"
+msgstr ""
+
+#: Functions/Shortcodes.php:830 html/OptionsPage.php:298
+msgid "Read More"
+msgstr ""
+
+#: Functions/Shortcodes.php:832
+msgid "Inquire"
+msgstr ""
+
+#: Functions/Shortcodes.php:834
+msgid "Add to Cart"
+msgstr ""
+
+#: Functions/Shortcodes.php:836
+msgid "Sale"
+msgstr ""
+
+#: Functions/Shortcodes.php:838 UPCP_Main.php:240
+msgid "Compare"
+msgstr ""
+
+#: Functions/Shortcodes.php:933 Functions/Shortcodes.php:1011
+#: Functions/Shortcodes.php:1095
+msgid "Category: "
+msgstr ""
+
+#: Functions/Shortcodes.php:939 Functions/Shortcodes.php:1017
+#: Functions/Shortcodes.php:1101
+msgid "Sub-Category: "
+msgstr ""
+
+#: Functions/Shortcodes.php:953 Functions/Shortcodes.php:1031
+#: Functions/Shortcodes.php:1115
+msgid "Tags: "
+msgstr ""
+
+#: Functions/Shortcodes.php:1176 Functions/Shortcodes.php:2042
+#: html/ProductsPage.php:362 html/SubCategoryDetails.php:53
+msgid "Category:"
+msgstr ""
+
+#: Functions/Shortcodes.php:1178 Functions/Shortcodes.php:2085
+#: html/ProductsPage.php:371
+msgid "Sub-Category:"
+msgstr ""
+
+#: Functions/Shortcodes.php:1180 Functions/Shortcodes.php:1695
+#: Functions/Shortcodes.php:2093 Functions/Shortcodes.php:2492
+#: html/ProductsPage.php:383
+msgid "Tags:"
+msgstr ""
+
+#: Functions/Shortcodes.php:1413
+msgid "Product"
+msgstr ""
+
+#: Functions/Shortcodes.php:1413 Functions/Shortcodes.php:1415
+#: Functions/Shortcodes.php:1417 Functions/Shortcodes.php:1419
+msgid "<span class='upcp-tab-break'>"
+msgstr ""
+
+#: Functions/Shortcodes.php:1415
+msgid "Additional"
+msgstr ""
+
+#: Functions/Shortcodes.php:1415
+msgid "Information"
+msgstr ""
+
+#: Functions/Shortcodes.php:1417
+msgid "Contact"
+msgstr ""
+
+#: Functions/Shortcodes.php:1417
+msgid "Us"
+msgstr ""
+
+#: Functions/Shortcodes.php:1419
+msgid "Customer"
+msgstr ""
+
+#: Functions/Shortcodes.php:1419
+msgid "Reviews"
+msgstr ""
+
+#: Functions/Shortcodes.php:1691 Functions/Shortcodes.php:2488
+msgid "Categories:"
+msgstr ""
+
+#: Functions/Shortcodes.php:1693 Functions/Shortcodes.php:2490
+msgid "Sub-Categories:"
+msgstr ""
+
+#: Functions/Shortcodes.php:1697
+msgid "Show All"
+msgstr ""
+
+#: Functions/Shortcodes.php:1699
+msgid "Price:"
+msgstr ""
+
+#: Functions/Shortcodes.php:1701
+msgid "Sort By:"
+msgstr ""
+
+#: Functions/Shortcodes.php:1703
+msgid "Price (Ascending)"
+msgstr ""
+
+#: Functions/Shortcodes.php:1705
+msgid "Price (Descending)"
+msgstr ""
+
+#: Functions/Shortcodes.php:1707
+msgid "Name (Ascending)"
+msgstr ""
+
+#: Functions/Shortcodes.php:1709
+msgid "Name (Descending)"
+msgstr ""
+
+#: Functions/Shortcodes.php:1711
+msgid "Rating (Ascending)"
+msgstr ""
+
+#: Functions/Shortcodes.php:1713
+msgid "Rating (Descending)"
+msgstr ""
+
+#: Functions/Shortcodes.php:1741 html/ProductsPage.php:107
+msgid "Filter"
+msgstr ""
+
+#: Functions/Shortcodes.php:1752
+msgid "Clear All"
+msgstr ""
+
+#: Functions/Shortcodes.php:2012 Functions/Shortcodes.php:2131
+#: Functions/Shortcodes.php:2494 Functions/Shortcodes.php:3053
+msgid "Back to Catalog"
+msgstr ""
+
+#: Functions/Shortcodes.php:2140 html/OptionsPage.php:581
+#: html/OptionsPage.php:1275 html/StylingPage.php:158
+msgid "Catalog"
+msgstr ""
+
+#: Functions/Shortcodes.php:2194
+msgid "Next Product:"
+msgstr ""
+
+#: Functions/Shortcodes.php:2197
+msgid "Previous Product:"
+msgstr ""
+
+#: Functions/Shortcodes.php:2236
+msgid "Related Products:"
+msgstr ""
+
+#: Functions/Shortcodes.php:2284 Functions/Shortcodes.php:3042
+#: html/OptionsPage.php:803
+msgid "Product Inquiry Form"
+msgstr ""
+
+#: Functions/Shortcodes.php:2326
+msgid "Leave a review"
+msgstr ""
+
+#: Functions/Shortcodes.php:2373 Functions/Shortcodes.php:2382
+msgid "Average Rating: "
+msgstr ""
+
+#: Functions/Shortcodes.php:2965 Functions/Shortcodes.php:3005
+#, php-format
+msgid "%s items in cart"
+msgstr ""
+
+#: Functions/Shortcodes.php:2967
+msgid "Checkout!"
+msgstr ""
+
+#: Functions/Shortcodes.php:2969 Functions/Shortcodes.php:3009
+msgid "or empty cart"
+msgstr ""
+
+#: Functions/Shortcodes.php:3007
+msgid "Send Inquiry!"
+msgstr ""
+
+#: Functions/Shortcodes.php:3055
+msgid "Please use the form below to enquire about the following products:"
+msgstr ""
+
+#: Functions/Shortcodes.php:3068
+msgid "No products selected"
+msgstr ""
+
+#: Functions/UPCP_Add_New_Catalogue_Style.php:36
+msgid "New style has been successfully added."
+msgstr ""
+
+#: Functions/UPCP_Add_Social_Media_Buttons.php:4
+msgid "Check out this product"
+msgstr ""
+
+#: Functions/UPCP_Deactivation_Survey.php:41
+msgid "Quick Feedback"
+msgstr ""
+
+#: Functions/UPCP_Deactivation_Survey.php:42
+msgid ""
+"If you have a moment, please share why you are deactivating Ultimate Product "
+"Catalog"
+msgstr ""
+
+#: Functions/UPCP_Deactivation_Survey.php:57
+msgid "Submit and Deactivate"
+msgstr ""
+
+#: Functions/UPCP_Deactivation_Survey.php:58
+msgid "Skip and Deactivate"
+msgstr ""
+
+#: Functions/UPCP_Shopping_Cart.php:5 Functions/UPCP_Shopping_Cart.php:7
+msgid "Orders"
+msgstr ""
+
+#: Functions/UPCP_Shopping_Cart.php:6
+msgid "Order"
+msgstr ""
+
+#: Functions/UPCP_Shopping_Cart.php:8
+msgid "Add Order"
+msgstr ""
+
+#: Functions/UPCP_Shopping_Cart.php:9 html/OrdersPage.php:162
+msgid "Add New Order"
+msgstr ""
+
+#: Functions/UPCP_Shopping_Cart.php:10
+msgid "Edit Order"
+msgstr ""
+
+#: Functions/UPCP_Shopping_Cart.php:11
+msgid "New Order"
+msgstr ""
+
+#: Functions/UPCP_Shopping_Cart.php:12
+msgid "View Order"
+msgstr ""
+
+#: Functions/UPCP_Shopping_Cart.php:13
+msgid "Search Orders"
+msgstr ""
+
+#: Functions/UPCP_Shopping_Cart.php:14
+msgid "Nothing found"
+msgstr ""
+
+#: Functions/UPCP_Shopping_Cart.php:15
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:10
+msgid "UPCP Product(s) List"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:11
+msgid "Insert a list of product(s)"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:37
+msgid "Product IDs"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:38 Functions/UPCP_Widget.php:110
+#: Functions/UPCP_Widget.php:180 Functions/UPCP_Widget.php:242
+#: Functions/UPCP_Widget.php:315
+msgid "Catalogue URL"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:39
+msgid "Products per Row"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:42
+msgid "Comma-separated product IDs:"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:46 Functions/UPCP_Widget.php:121
+#: Functions/UPCP_Widget.php:187 Functions/UPCP_Widget.php:253
+#: Functions/UPCP_Widget.php:326
+msgid "The URL of your catalogue:"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:50
+msgid "The number of products per row:"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:81
+msgid "UPCP Random Products"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:82
+msgid "Inserts a number of random products"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:108 Functions/UPCP_Widget.php:240
+msgid "Catalogue ID"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:109 Functions/UPCP_Widget.php:179
+#: Functions/UPCP_Widget.php:241
+msgid "Product Count"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:113 Functions/UPCP_Widget.php:245
+msgid "Catalogue ID:"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:117 Functions/UPCP_Widget.php:183
+#: Functions/UPCP_Widget.php:249
+msgid "Number of products to display:"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:152
+msgid "UPCP Recent Products"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:153
+msgid "Insert a number of recent products"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:217
+msgid "UPCP Popular Products"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:218
+msgid "Insert a number of popular products"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:284
+msgid "UPCP Search Bar"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:285
+msgid "Insert a product search box"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:313
+msgid "Search Label"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:314
+msgid "Search Placeholder"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:318
+msgid "The label for the search input:"
+msgstr ""
+
+#: Functions/UPCP_Widget.php:322
+msgid "The label for the input placeholder:"
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:22
+msgid "Category has been successfully created."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:50
+msgid "Category has been successfully edited."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:88
+msgid "Category has been successfully deleted."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:115
+msgid "Sub-Category has been successfully created."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:150
+msgid "Sub-Category has been successfully edited."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:176
+msgid "Sub-Category has been successfully deleted."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:201
+msgid "Tag has been successfully created."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:226
+msgid "Tag has been successfully edited."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:249
+msgid "Tag has been successfully deleted."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:265
+msgid "Tag has been successfully deleted from product."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:284
+msgid "Tag Group has been successfully created."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:303
+msgid "Tag Group has been successfully edited."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:336
+msgid "video has been successfully added to the product."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:393
+msgid "Field has been successfully created."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:438
+msgid "Field has been successfully edited."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:455
+msgid "Field has been successfully deleted."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:469
+msgid "Catalogue has been successfully created."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:486
+msgid "Catalogue has been successfully edited."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:509
+msgid "Products have been successfully added to the catalogue."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:531
+msgid "Categories have been successfully added to the catalogue."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:576
+msgid "Catalogue has been successfully deleted."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:595
+msgid "Product has been successfully deleted from catalogue."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:621
+msgid ""
+"Maximum number of products (100) has been reached for free version. Upgrade "
+"to the premium version to continue."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:710
+#: Functions/Update_Admin_Databases.php:859
+msgid " One or more custom field values were incorrect."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:732
+msgid "Product has been successfully created."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:884
+msgid "Product has been successfully edited."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:1040
+msgid "You have a column which is not recognized: "
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:1040
+msgid ""
+". <br>Please make sure that the column names match the product field labels "
+"exactly."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:1045
+msgid ""
+"You have a blank column that has been edited.<br>Please delete that column "
+"and re-upload your spreadsheet."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:1079
+msgid ""
+"Maximum number of products (100) for the free version would be exceeded with "
+"spreadhseet products. Upgrade to the premium version to continue."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:1218
+msgid "Products added successfully."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:1277
+msgid "Product has been successfully deleted."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:1295
+msgid "Image has been successfully added to the product."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:1315
+msgid "Image has been successfully removed."
+msgstr ""
+
+#: Functions/Update_Admin_Databases.php:1625
+msgid "Options have been succesfully updated."
+msgstr ""
+
+#: Functions/Update_UPCP_Content.php:134
+msgid "The form has not worked correctly. Please contact the plugin developer."
+msgstr ""
+
+#: UPCP_Main.php:106
+msgid "Products per page"
+msgstr ""
+
+#: UPCP_Main.php:238
+msgid "Updating Results..."
+msgstr ""
+
+#: UPCP_Main.php:242
+msgid "side by side"
+msgstr ""
+
+#: UPCP_Main.php:308
+msgid "Next"
+msgstr ""
+
+#: UPCP_Main.php:309
+msgid "Close"
+msgstr ""
+
+#: html/AddProduct.php:5 html/CatalogueDetails.php:10
+#: html/CategoryDetails.php:57 html/CustomFieldDetails.php:8
+#: html/ProductDetails.php:14 html/SubCategoryDetails.php:39
+#: html/TagDetails.php:31 html/TagGroupDetails.php:28
+msgid "Back"
+msgstr ""
+
+#: html/AddProduct.php:15 html/ProductDetails.php:26
+msgid "Name of Product"
+msgstr ""
+
+#: html/AddProduct.php:18 html/CatalogueDetails.php:24
+#: html/CataloguesPage.php:167 html/CategoriesPage.php:59
+#: html/CategoriesPage.php:86 html/CategoriesPage.php:177
+#: html/CategoryDetails.php:71 html/CustomFieldDetails.php:42
+#: html/CustomFieldsPage.php:73 html/CustomFieldsPage.php:107
+#: html/CustomFieldsPage.php:214 html/OptionsPage.php:330
+#: html/OrdersPage.php:146 html/ProductDetails.php:29 html/ProductsPage.php:147
+#: html/ProductsPage.php:197 html/SubCategoriesPage.php:65
+#: html/SubCategoriesPage.php:99 html/SubCategoriesPage.php:202
+#: html/SubCategoryDetails.php:66 html/TagDetails.php:45
+#: html/TagGroupDetails.php:43 html/TagsPage.php:61 html/TagsPage.php:95
+#: html/TagsPage.php:199
+msgid "Description"
+msgstr ""
+
+#: html/AddProduct.php:27 html/ProductDetails.php:38
+msgid "Product Details"
+msgstr ""
+
+#: html/AddProduct.php:31 html/CustomFieldDetails.php:21
+#: html/CustomFieldsPage.php:193 html/ProductDetails.php:42
+#: html/ProductsPage.php:323
+msgid "Slug"
+msgstr ""
+
+#: html/AddProduct.php:33 html/ProductDetails.php:44 html/ProductsPage.php:325
+msgid "The slug for your product if you use pretty permalinks."
+msgstr ""
+
+#: html/AddProduct.php:36 html/ProductDetails.php:47 html/ProductsPage.php:333
+msgid "Regular Price"
+msgstr ""
+
+#: html/AddProduct.php:40 html/ProductDetails.php:51 html/ProductsPage.php:337
+msgid "Sale Price"
+msgstr ""
+
+#: html/AddProduct.php:42 html/ProductDetails.php:53
+msgid ""
+"What price should this product be on sale for? Only shown if the checkbox "
+"below is selected or 'Sale Mode' is selected in the 'Options' tab."
+msgstr ""
+
+#: html/AddProduct.php:45 html/ProductDetails.php:56 html/ProductsPage.php:342
+msgid "On Sale"
+msgstr ""
+
+#: html/AddProduct.php:47 html/ProductDetails.php:58
+msgid "Should the sale price be displayed for this item?"
+msgstr ""
+
+#: html/AddProduct.php:50 html/ProductDetails.php:61 html/ProductsPage.php:352
+msgid "SEO Description"
+msgstr ""
+
+#: html/AddProduct.php:52 html/ProductDetails.php:63 html/ProductsPage.php:354
+msgid ""
+"The description to use for this product in the SEO By Yoast meta description "
+"tag."
+msgstr ""
+
+#: html/AddProduct.php:55 html/ProductDetails.php:66 html/ProductsPage.php:357
+msgid "Product Link"
+msgstr ""
+
+#: html/AddProduct.php:57 html/ProductDetails.php:68 html/ProductsPage.php:359
+msgid ""
+"A link that will replace the default product page. Useful if you participate "
+"in affiliate programs."
+msgstr ""
+
+#: html/AddProduct.php:60 html/ProductDetails.php:71 html/ProductsPage.php:494
+msgid "Display Status"
+msgstr ""
+
+#: html/AddProduct.php:63 html/ProductDetails.php:74 html/ProductsPage.php:497
+msgid "Should this item be displayed if it's added to a catalog?"
+msgstr ""
+
+#: html/AddProduct.php:73 html/ProductDetails.php:84
+msgid "Need Help?"
+msgstr ""
+
+#: html/AddProduct.php:83 html/ProductDetails.php:94 html/ProductsPage.php:328
+msgid "Main Product Image"
+msgstr ""
+
+#: html/AddProduct.php:87 html/ProductDetails.php:98
+#: html/ProductDetails.php:317
+msgid "Image URL"
+msgstr ""
+
+#: html/AddProduct.php:98 html/CatalogueDetails.php:101
+#: html/OptionsPage.php:582 html/ProductDetails.php:115
+msgid "Categories"
+msgstr ""
+
+#: html/AddProduct.php:102 html/ProductDetails.php:119
+#: html/ProductsPage.php:161 html/ProductsPage.php:211
+msgid "Category"
+msgstr ""
+
+#: html/AddProduct.php:113 html/ProductDetails.php:132
+#: html/ProductsPage.php:168 html/ProductsPage.php:218
+msgid "Sub-Category"
+msgstr ""
+
+#: html/AddProduct.php:124 html/AddProduct.php:128 html/OptionsPage.php:594
+#: html/ProductDetails.php:150 html/ProductDetails.php:154
+msgid "Tags"
+msgstr ""
+
+#: html/AddProduct.php:160 html/CustomProductPage.php:163
+#: html/OptionsPage.php:595 html/ProductDetails.php:189
+msgid "Custom Fields"
+msgstr ""
+
+#: html/AddProduct.php:169 html/AddProduct.php:174 html/ProductDetails.php:204
+#: html/ProductDetails.php:209 html/ProductsPage.php:419
+#: html/ProductsPage.php:423
+msgid "Accepted values"
+msgstr ""
+
+#: html/AddProduct.php:225 html/ProductDetails.php:268
+msgid "Other Products"
+msgstr ""
+
+#: html/AddProduct.php:230 html/OptionsPage.php:658 html/ProductDetails.php:274
+#: html/ProductsPage.php:476
+msgid "Related Products"
+msgstr ""
+
+#: html/AddProduct.php:237 html/ProductDetails.php:281
+msgid ""
+"What products are related to this one if set to manual related products? "
+"(premium feature, input product IDs)"
+msgstr ""
+
+#: html/AddProduct.php:243 html/OptionsPage.php:670 html/ProductDetails.php:287
+#: html/ProductsPage.php:487
+msgid "Next/Previous Products"
+msgstr ""
+
+#: html/AddProduct.php:247 html/ProductDetails.php:291
+#: html/ProductsPage.php:490
+msgid ""
+"What products should be listed as the next/previous products? (premium "
+"feature, input product IDs)"
+msgstr ""
+
+#: html/AddProduct.php:261 html/ProductDetails.php:306
+msgid "Additional Product Images"
+msgstr ""
+
+#: html/AddProduct.php:265
+msgid "Save product first before adding additional images."
+msgstr ""
+
+#: html/AddProduct.php:269 html/AddProduct.php:289
+#: html/CustomFieldsPage.php:278 html/CustomProductPage.php:237
+#: html/ProductDetails.php:343 html/ProductDetails.php:422
+#: html/TagsPage.php:333
+msgid "Full Version Required!"
+msgstr ""
+
+#: html/AddProduct.php:271 html/AddProduct.php:291 html/ProductDetails.php:345
+#: html/ProductDetails.php:424
+msgid ""
+"The full version of the Ultimate Product Catalog Plugin is required to add "
+"additional product images."
+msgstr ""
+
+#: html/AddProduct.php:271 html/AddProduct.php:291
+#: html/CustomFieldsPage.php:280 html/CustomProductPage.php:239
+#: html/ProductDetails.php:345 html/ProductDetails.php:424
+#: html/TagsPage.php:335
+msgid " Please upgrade to unlock this page!"
+msgstr ""
+
+#: html/AddProduct.php:280 html/ProductDetails.php:354
+msgid "Add Product Videos"
+msgstr ""
+
+#: html/AddProduct.php:284
+msgid "Save product first before adding videos."
+msgstr ""
+
+#: html/AdminHeader.php:2
+msgid "Ultimate Product Catalog Settings"
+msgstr ""
+
+#: html/CatalogueDetails.php:19 html/CataloguesPage.php:51
+#: html/CataloguesPage.php:74 html/CataloguesPage.php:162
+#: html/CategoriesPage.php:52 html/CategoriesPage.php:79
+#: html/CategoriesPage.php:172 html/CategoryDetails.php:66
+#: html/CustomFieldDetails.php:16 html/CustomFieldsPage.php:188
+#: html/DashboardPage.php:68 html/OptionsPage.php:329 html/OptionsPage.php:761
+#: html/OrdersPage.php:43 html/OrdersPage.php:65 html/OrdersPage.php:141
+#: html/ProductsPage.php:140 html/ProductsPage.php:190
+#: html/SubCategoriesPage.php:51 html/SubCategoriesPage.php:85
+#: html/SubCategoriesPage.php:186 html/SubCategoryDetails.php:48
+#: html/TagDetails.php:40 html/TagsPage.php:54 html/TagsPage.php:88
+#: html/TagsPage.php:194
+msgid "Name"
+msgstr ""
+
+#: html/CatalogueDetails.php:21 html/CataloguesPage.php:164
+msgid ""
+"The name of the catalog. This is for your own internal use, and to insert "
+"the catalog into a page or post."
+msgstr ""
+
+#: html/CatalogueDetails.php:26
+msgid "The description of the catalog. What products are included in this?"
+msgstr ""
+
+#: html/CatalogueDetails.php:29 html/CataloguesPage.php:172
+msgid "Custom CSS"
+msgstr ""
+
+#: html/CatalogueDetails.php:31 html/CataloguesPage.php:174
+msgid "Custom CSS styles that should be applied to this catalog."
+msgstr ""
+
+#: html/CatalogueDetails.php:35
+msgid "Edit Catalog"
+msgstr ""
+
+#: html/CatalogueDetails.php:49
+msgid "Products"
+msgstr ""
+
+#: html/CatalogueDetails.php:54 html/CatalogueDetails.php:106
+msgid "View All"
+msgstr ""
+
+#: html/CatalogueDetails.php:89 html/CatalogueDetails.php:141
+msgid "Add to Catalog"
+msgstr ""
+
+#: html/CatalogueDetails.php:167 html/CatalogueDetails.php:174
+#: html/ProductDetails.php:391 html/ProductDetails.php:413
+msgid "Delete?"
+msgstr ""
+
+#: html/CatalogueDetails.php:168 html/CatalogueDetails.php:175
+msgid "Catalog Item Name"
+msgstr ""
+
+#: html/CatalogueDetails.php:169 html/CatalogueDetails.php:176
+msgid "Type of Catalog Item"
+msgstr ""
+
+#: html/CatalogueDetails.php:192
+msgid "Delete Catalog Items"
+msgstr ""
+
+#: html/CataloguesPage.php:27 html/CataloguesPage.php:128
+#: html/CategoriesPage.php:28 html/CategoriesPage.php:138
+#: html/CustomFieldsPage.php:28 html/CustomFieldsPage.php:152
+#: html/OrdersPage.php:26 html/OrdersPage.php:116 html/ProductsPage.php:115
+#: html/ProductsPage.php:278 html/SubCategoriesPage.php:27
+#: html/SubCategoriesPage.php:152 html/TagsPage.php:30 html/TagsPage.php:160
+msgid "Bulk Actions"
+msgstr ""
+
+#: html/CataloguesPage.php:28 html/CataloguesPage.php:108
+#: html/CataloguesPage.php:129 html/CategoriesPage.php:118
+#: html/CategoriesPage.php:139 html/CustomFieldsPage.php:29
+#: html/CustomFieldsPage.php:129 html/CustomFieldsPage.php:153
+#: html/DashboardPage.php:84 html/OrdersPage.php:27 html/OrdersPage.php:97
+#: html/OrdersPage.php:117 html/ProductDetails.php:333
+#: html/ProductDetails.php:404 html/ProductsPage.php:116
+#: html/ProductsPage.php:252 html/ProductsPage.php:279
+#: html/SubCategoriesPage.php:28 html/SubCategoriesPage.php:153
+#: html/TagsPage.php:31 html/TagsPage.php:134 html/TagsPage.php:161
+#: html/TagsPage.php:280
+msgid "Delete"
+msgstr ""
+
+#: html/CataloguesPage.php:30 html/CataloguesPage.php:131
+#: html/CategoriesPage.php:31 html/CustomFieldsPage.php:31
+#: html/CustomFieldsPage.php:155 html/OrdersPage.php:30
+#: html/ProductsPage.php:118 html/ProductsPage.php:281
+#: html/SubCategoriesPage.php:30 html/TagsPage.php:163
+msgid "Apply"
+msgstr ""
+
+#: html/CataloguesPage.php:33 html/CataloguesPage.php:134
+#: html/CategoriesPage.php:34 html/CategoriesPage.php:144
+#: html/CustomFieldsPage.php:34 html/CustomFieldsPage.php:158
+#: html/ProductsPage.php:122 html/ProductsPage.php:284
+#: html/SubCategoriesPage.php:33 html/SubCategoriesPage.php:158
+#: html/TagsPage.php:36 html/TagsPage.php:166
+msgid "items"
+msgstr ""
+
+#: html/CataloguesPage.php:37 html/CataloguesPage.php:138
+#: html/CategoriesPage.php:38 html/CategoriesPage.php:148
+#: html/CustomFieldsPage.php:38 html/CustomFieldsPage.php:162
+#: html/ProductsPage.php:126 html/ProductsPage.php:288
+#: html/SubCategoriesPage.php:37 html/SubCategoriesPage.php:162
+#: html/TagsPage.php:40 html/TagsPage.php:170
+msgid "of"
+msgstr ""
+
+#: html/CataloguesPage.php:56 html/CataloguesPage.php:78
+#: html/DashboardPage.php:69
+msgid "Shortcode"
+msgstr ""
+
+#: html/CataloguesPage.php:61 html/CataloguesPage.php:83
+#: html/DashboardPage.php:70
+msgid "Products in Catalog"
+msgstr ""
+
+#: html/CataloguesPage.php:156
+msgid "Add a New Catalog"
+msgstr ""
+
+#: html/CataloguesPage.php:169
+msgid "The description of the catalog. What will it be used to display?"
+msgstr ""
+
+#: html/CataloguesPage.php:177
+msgid "Add New Catalog"
+msgstr ""
+
+#: html/CategoriesPage.php:66 html/CategoriesPage.php:93
+#: html/CategoryDetails.php:9
+msgid "Products in Category"
+msgstr ""
+
+#: html/CategoriesPage.php:166
+msgid "Add a New Category"
+msgstr ""
+
+#: html/CategoriesPage.php:174
+msgid "The name of the category for your own purposes."
+msgstr ""
+
+#: html/CategoriesPage.php:179
+msgid "The description of the category. What will it be used to display?"
+msgstr ""
+
+#: html/CategoriesPage.php:182 html/CategoryDetails.php:76
+#: html/SubCategoriesPage.php:207 html/SubCategoryDetails.php:71
+msgid "Image"
+msgstr ""
+
+#: html/CategoriesPage.php:185
+msgid ""
+"An image that will be displayed in association with this category, if that "
+"option is selected in the 'Options' tab."
+msgstr ""
+
+#: html/CategoriesPage.php:188
+msgid "Add New Category"
+msgstr ""
+
+#: html/CategoryDetails.php:68
+msgid "The name of the category your users will see and search for."
+msgstr ""
+
+#: html/CategoryDetails.php:73
+msgid "The description of the category. What products are included in this?"
+msgstr ""
+
+#: html/CategoryDetails.php:79
+msgid ""
+"An image that will be displayed in association with this category, if that "
+"option is selected in the 'Options' tab. Current Image:"
+msgstr ""
+
+#: html/CategoryDetails.php:83 html/CustomFieldDetails.php:91
+#: html/OptionsPage.php:1450 html/StylingPage.php:1388
+#: html/SubCategoryDetails.php:78 html/TagDetails.php:70
+#: html/TagGroupDetails.php:53
+msgid "Save Changes"
+msgstr ""
+
+#: html/CustomFieldDetails.php:18 html/CustomFieldsPage.php:190
+msgid "The name of the field you will see."
+msgstr ""
+
+#: html/CustomFieldDetails.php:23 html/CustomFieldsPage.php:195
+msgid "An all-lowercase name that will be used to insert the field."
+msgstr ""
+
+#: html/CustomFieldDetails.php:26 html/CustomFieldsPage.php:66
+#: html/CustomFieldsPage.php:100 html/CustomFieldsPage.php:198
+msgid "Type"
+msgstr ""
+
+#: html/CustomFieldDetails.php:28 html/CustomFieldsPage.php:200
+msgid "Short Text"
+msgstr ""
+
+#: html/CustomFieldDetails.php:29 html/CustomFieldsPage.php:201
+msgid "Integer"
+msgstr ""
+
+#: html/CustomFieldDetails.php:30 html/CustomFieldsPage.php:202
+msgid "Link"
+msgstr ""
+
+#: html/CustomFieldDetails.php:31 html/CustomFieldsPage.php:203
+msgid "Select Box"
+msgstr ""
+
+#: html/CustomFieldDetails.php:32 html/CustomFieldsPage.php:204
+msgid "Radio Button"
+msgstr ""
+
+#: html/CustomFieldDetails.php:33 html/CustomFieldDetails.php:71
+#: html/CustomFieldsPage.php:205 html/CustomFieldsPage.php:245
+#: html/StylingPage.php:983 html/StylingPage.php:995 html/StylingPage.php:1007
+msgid "Checkbox"
+msgstr ""
+
+#: html/CustomFieldDetails.php:34 html/CustomFieldsPage.php:206
+msgid "Text Area"
+msgstr ""
+
+#: html/CustomFieldDetails.php:35 html/CustomFieldsPage.php:207
+msgid "File"
+msgstr ""
+
+#: html/CustomFieldDetails.php:36 html/CustomFieldsPage.php:208
+msgid "Date"
+msgstr ""
+
+#: html/CustomFieldDetails.php:37 html/CustomFieldsPage.php:209
+msgid "Date/Time"
+msgstr ""
+
+#: html/CustomFieldDetails.php:39 html/CustomFieldsPage.php:211
+msgid ""
+"The input method for the field and type of data that the field will hold."
+msgstr ""
+
+#: html/CustomFieldDetails.php:44 html/CustomFieldsPage.php:216
+msgid ""
+"The description of the field, which you will see as the instruction for the "
+"field."
+msgstr ""
+
+#: html/CustomFieldDetails.php:47 html/CustomFieldsPage.php:219
+msgid "Input Values"
+msgstr ""
+
+#: html/CustomFieldDetails.php:49 html/CustomFieldsPage.php:221
+msgid ""
+"A comma-separated list of acceptable input values for this field. These "
+"values will be the options for select, checkbox, and radio inputs. All "
+"values will be accepted if left blank."
+msgstr ""
+
+#: html/CustomFieldDetails.php:52 html/CustomFieldsPage.php:224
+msgid "Display?"
+msgstr ""
+
+#: html/CustomFieldDetails.php:54 html/CustomFieldsPage.php:226
+#: html/OptionsPage.php:178 html/OptionsPage.php:332 html/OptionsPage.php:482
+#: html/OptionsPage.php:492 html/OptionsPage.php:580 html/OptionsPage.php:664
+#: html/OptionsPage.php:676 html/OptionsPage.php:847 html/StylingPage.php:958
+msgid "None"
+msgstr ""
+
+#: html/CustomFieldDetails.php:55 html/CustomFieldsPage.php:227
+msgid "Thumbnail View"
+msgstr ""
+
+#: html/CustomFieldDetails.php:56 html/CustomFieldsPage.php:228
+msgid "List View"
+msgstr ""
+
+#: html/CustomFieldDetails.php:57 html/CustomFieldsPage.php:229
+msgid "Details View"
+msgstr ""
+
+#: html/CustomFieldDetails.php:58 html/CustomFieldsPage.php:230
+#: html/OptionsPage.php:176
+msgid "All"
+msgstr ""
+
+#: html/CustomFieldDetails.php:60 html/CustomFieldsPage.php:232
+msgid "Should this field be displayed in any of the main catalog pages?"
+msgstr ""
+
+#: html/CustomFieldDetails.php:63 html/CustomFieldsPage.php:236
+msgid "Searchable?"
+msgstr ""
+
+#: html/CustomFieldDetails.php:64 html/CustomFieldDetails.php:80
+#: html/CustomFieldDetails.php:86 html/CustomFieldsPage.php:237
+#: html/CustomFieldsPage.php:255 html/CustomFieldsPage.php:262
+#: html/OptionsPage.php:190 html/OptionsPage.php:207 html/OptionsPage.php:224
+#: html/OptionsPage.php:276 html/OptionsPage.php:304 html/OptionsPage.php:344
+#: html/OptionsPage.php:361 html/OptionsPage.php:372 html/OptionsPage.php:384
+#: html/OptionsPage.php:401 html/OptionsPage.php:448 html/OptionsPage.php:465
+#: html/OptionsPage.php:507 html/OptionsPage.php:524 html/OptionsPage.php:541
+#: html/OptionsPage.php:558 html/OptionsPage.php:609 html/OptionsPage.php:651
+#: html/OptionsPage.php:706 html/OptionsPage.php:723 html/OptionsPage.php:774
+#: html/OptionsPage.php:809 html/OptionsPage.php:826 html/OptionsPage.php:869
+#: html/OptionsPage.php:886 html/OptionsPage.php:903 html/OptionsPage.php:920
+#: html/OptionsPage.php:937 html/OptionsPage.php:995 html/OptionsPage.php:1013
+#: html/OptionsPage.php:1030 html/OptionsPage.php:1059
+#: html/OptionsPage.php:1077 html/OptionsPage.php:1116
+#: html/OptionsPage.php:1153 html/StylingPage.php:908 html/StylingPage.php:925
+#: html/StylingPage.php:942 html/StylingPage.php:1246 html/StylingPage.php:1263
+msgid "No"
+msgstr ""
+
+#: html/CustomFieldDetails.php:65 html/CustomFieldDetails.php:81
+#: html/CustomFieldDetails.php:87 html/CustomFieldsPage.php:238
+#: html/CustomFieldsPage.php:256 html/CustomFieldsPage.php:263
+#: html/OptionsPage.php:189 html/OptionsPage.php:206 html/OptionsPage.php:223
+#: html/OptionsPage.php:275 html/OptionsPage.php:303 html/OptionsPage.php:343
+#: html/OptionsPage.php:383 html/OptionsPage.php:400 html/OptionsPage.php:447
+#: html/OptionsPage.php:464 html/OptionsPage.php:506 html/OptionsPage.php:523
+#: html/OptionsPage.php:540 html/OptionsPage.php:557 html/OptionsPage.php:608
+#: html/OptionsPage.php:649 html/OptionsPage.php:705 html/OptionsPage.php:722
+#: html/OptionsPage.php:773 html/OptionsPage.php:808 html/OptionsPage.php:825
+#: html/OptionsPage.php:868 html/OptionsPage.php:885 html/OptionsPage.php:902
+#: html/OptionsPage.php:919 html/OptionsPage.php:936 html/OptionsPage.php:994
+#: html/OptionsPage.php:1012 html/OptionsPage.php:1029
+#: html/OptionsPage.php:1058 html/OptionsPage.php:1076
+#: html/OptionsPage.php:1115 html/OptionsPage.php:1152 html/StylingPage.php:909
+#: html/StylingPage.php:926 html/StylingPage.php:943 html/StylingPage.php:1247
+#: html/StylingPage.php:1264
+msgid "Yes"
+msgstr ""
+
+#: html/CustomFieldDetails.php:66 html/CustomFieldsPage.php:239
+msgid "Should this field be searchable in your catalogs?"
+msgstr ""
+
+#: html/CustomFieldDetails.php:69 html/CustomFieldsPage.php:243
+msgid "Control Type"
+msgstr ""
+
+#: html/CustomFieldDetails.php:72 html/CustomFieldsPage.php:246
+#: html/StylingPage.php:984 html/StylingPage.php:996 html/StylingPage.php:1008
+msgid "Radio"
+msgstr ""
+
+#: html/CustomFieldDetails.php:73 html/CustomFieldsPage.php:247
+#: html/StylingPage.php:985 html/StylingPage.php:997 html/StylingPage.php:1009
+msgid "Dropdown"
+msgstr ""
+
+#: html/CustomFieldDetails.php:74 html/CustomFieldsPage.php:248
+msgid "Slider (Only works for integer type fields)"
+msgstr ""
+
+#: html/CustomFieldDetails.php:76 html/CustomFieldsPage.php:250
+msgid ""
+"What type of control should this field use in the sidebar if it's searchable?"
+msgstr ""
+
+#: html/CustomFieldDetails.php:79 html/CustomFieldsPage.php:254
+msgid "Display in Tabbed Layout?"
+msgstr ""
+
+#: html/CustomFieldDetails.php:82 html/CustomFieldsPage.php:257
+msgid ""
+"Should this field be displayed in the 'Additional Information' area of the "
+"tabbed view?"
+msgstr ""
+
+#: html/CustomFieldDetails.php:85 html/CustomFieldsPage.php:261
+msgid "Display in Product Comparison?"
+msgstr ""
+
+#: html/CustomFieldDetails.php:88 html/CustomFieldsPage.php:264
+msgid ""
+"Should this field be displayed when visitors do a product comparison (in "
+"product comparison is enabled)?"
+msgstr ""
+
+#: html/CustomFieldsPage.php:52 html/CustomFieldsPage.php:86
+msgid "Field Name"
+msgstr ""
+
+#: html/CustomFieldsPage.php:59 html/CustomFieldsPage.php:93
+msgid "Field Slug"
+msgstr ""
+
+#: html/CustomFieldsPage.php:181 html/CustomFieldsPage.php:267
+msgid "Add New Field"
+msgstr ""
+
+#: html/CustomFieldsPage.php:280
+msgid ""
+"The full version of the Ultimate Product Catalog Plugin is required to use "
+"custom fields."
+msgstr ""
+
+#: html/CustomProductPage.php:80
+msgid "Save Tabs"
+msgstr ""
+
+#: html/CustomProductPage.php:105 html/CustomProductPage.php:245
+msgid "Feature Update"
+msgstr ""
+
+#: html/CustomProductPage.php:107
+msgid ""
+"Some users have reported problems using the admin area functions of this "
+"feature with FireFox and IE browsers. No issues reported yet with Chrome, or "
+"with any browser on the visitor's side."
+msgstr ""
+
+#: html/CustomProductPage.php:127
+msgid "Basic Elements"
+msgstr ""
+
+#: html/CustomProductPage.php:239 html/TagsPage.php:335
+msgid ""
+"The full version of the Ultimate Product Catalog Plugin is required to use "
+"tags."
+msgstr ""
+
+#: html/CustomProductPage.php:247
+msgid ""
+"Some users have reported problems using this feature with FireFox and IE "
+"browsers. No issues reported yet with Chrome."
+msgstr ""
+
+#: html/DashboardPage.php:22
+msgid "Enter Product Key Here"
+msgstr ""
+
+#: html/DashboardPage.php:23
+msgid "UNLOCK PREMIUM"
+msgstr ""
+
+#: html/MainScreen.php:3
+msgid "MENU"
+msgstr ""
+
+#: html/OptionsPage.php:143
+msgid "Basic Options"
+msgstr ""
+
+#: html/OptionsPage.php:147 html/StylingPage.php:182
+msgid "General"
+msgstr ""
+
+#: html/OptionsPage.php:151 html/OptionsPage.php:154
+msgid "Currency Symbol"
+msgstr ""
+
+#: html/OptionsPage.php:156
+msgid ""
+"What currency symbol, if any, should be displayed before or after the price? "
+"Leave blank for none."
+msgstr ""
+
+#: html/OptionsPage.php:161 html/OptionsPage.php:164
+msgid "Currency Symbol Location"
+msgstr ""
+
+#: html/OptionsPage.php:165
+msgid "Before"
+msgstr ""
+
+#: html/OptionsPage.php:166
+msgid "After"
+msgstr ""
+
+#: html/OptionsPage.php:167
+msgid ""
+"Should the currency symbol, if selected, be displayed before or after the "
+"price?"
+msgstr ""
+
+#: html/OptionsPage.php:172 html/OptionsPage.php:175
+msgid "Sale Mode"
+msgstr ""
+
+#: html/OptionsPage.php:177
+msgid "Individual"
+msgstr ""
+
+#: html/OptionsPage.php:179
+msgid ""
+"Should all products be put on sale ('All'), no products be on sale ('None'), "
+"or sale prices be shown only for selected products ('Individual')?"
+msgstr ""
+
+#: html/OptionsPage.php:184 html/OptionsPage.php:187
+msgid "Thumbnail Support"
+msgstr ""
+
+#: html/OptionsPage.php:196
+msgid ""
+"If available, should thumbnail version of images be used on the main catalog "
+"pages?"
+msgstr ""
+
+#: html/OptionsPage.php:201 html/OptionsPage.php:204
+msgid "Contents Filter"
+msgstr ""
+
+#: html/OptionsPage.php:213
+msgid ""
+"Should the default WordPress contents filter be applied to product "
+"descriptions before they're saved in the database?"
+msgstr ""
+
+#: html/OptionsPage.php:218 html/OptionsPage.php:221
+msgid "Maintain Filtering"
+msgstr ""
+
+#: html/OptionsPage.php:230
+msgid ""
+"Should filtering be maintained after viewing a product page (may cause "
+"redirect to homepage issues)?"
+msgstr ""
+
+#: html/OptionsPage.php:235 html/OptionsPage.php:238
+msgid "Social Media Options"
+msgstr ""
+
+#: html/OptionsPage.php:247
+msgid "Which social media links should be displayed on the product page?"
+msgstr ""
+
+#: html/OptionsPage.php:254
+msgid "Catalog Page Display"
+msgstr ""
+
+#: html/OptionsPage.php:258 html/OptionsPage.php:261
+msgid "Catalog Color"
+msgstr ""
+
+#: html/OptionsPage.php:262 html/StylingPage.php:1234
+msgid "Blue"
+msgstr ""
+
+#: html/OptionsPage.php:263 html/StylingPage.php:1233
+msgid "Black"
+msgstr ""
+
+#: html/OptionsPage.php:264 html/StylingPage.php:1235
+msgid "Grey"
+msgstr ""
+
+#: html/OptionsPage.php:265
+msgid "Set the color of the image and border elements"
+msgstr ""
+
+#: html/OptionsPage.php:270 html/OptionsPage.php:273
+msgid "Auto-Adjust Thumbnail Heights"
+msgstr ""
+
+#: html/OptionsPage.php:282
+msgid ""
+"Should the heights of the product thumbnails auto-adjust to the height of "
+"the longest product? This prevents lines with odd numbers of products, "
+"products not starting on the left, etc."
+msgstr ""
+
+#: html/OptionsPage.php:287
+msgid "Sub-Category Style"
+msgstr ""
+
+#: html/OptionsPage.php:290
+msgid "How Should Sub-Categories be Displayed"
+msgstr ""
+
+#: html/OptionsPage.php:291 html/StylingPage.php:230
+msgid "Normal"
+msgstr ""
+
+#: html/OptionsPage.php:292
+msgid "Hierarchical"
+msgstr ""
+
+#: html/OptionsPage.php:293
+msgid ""
+"Should categories and sub-categories be arranged hierarchically or be "
+"grouped?"
+msgstr ""
+
+#: html/OptionsPage.php:301
+msgid "'Read More' for Details view"
+msgstr ""
+
+#: html/OptionsPage.php:310
+msgid ""
+"In the 'Details' layout, should the product description be cutoff if it's "
+"long?"
+msgstr ""
+
+#: html/OptionsPage.php:315
+msgid "Characters in Details Description"
+msgstr ""
+
+#: html/OptionsPage.php:318
+msgid "Characters in 'Details' Description"
+msgstr ""
+
+#: html/OptionsPage.php:320
+msgid ""
+"Set maximum number of characters in product description in the 'Details' "
+"layout"
+msgstr ""
+
+#: html/OptionsPage.php:325 html/OptionsPage.php:328
+msgid "Show Catalog Information"
+msgstr ""
+
+#: html/OptionsPage.php:331
+msgid "Both"
+msgstr ""
+
+#: html/OptionsPage.php:333
+msgid ""
+"Should the name or description of the catalog be shown above the catalog?"
+msgstr ""
+
+#: html/OptionsPage.php:338 html/OptionsPage.php:341
+msgid "Show Category Description"
+msgstr ""
+
+#: html/OptionsPage.php:350
+msgid "Should the descriptions of product categories be shown below them?"
+msgstr ""
+
+#: html/OptionsPage.php:355 html/OptionsPage.php:358
+msgid "Display Category Image"
+msgstr ""
+
+#: html/OptionsPage.php:359 html/OptionsPage.php:371
+msgid "In Sidebar"
+msgstr ""
+
+#: html/OptionsPage.php:360
+msgid "In Main Catalog Area"
+msgstr ""
+
+#: html/OptionsPage.php:362
+msgid "Should the category image be displayed on the main catalog page?"
+msgstr ""
+
+#: html/OptionsPage.php:367 html/OptionsPage.php:370
+msgid "Display Sub-Category Image"
+msgstr ""
+
+#: html/OptionsPage.php:374
+msgid "Should the sub-category image be displayed on the main catalog page?"
+msgstr ""
+
+#: html/OptionsPage.php:378
+msgid "Display Categories in Thumbnails"
+msgstr ""
+
+#: html/OptionsPage.php:390
+msgid ""
+"Should the category and sub-category associated with a product be displayed "
+"in the product listing on the catalog page?"
+msgstr ""
+
+#: html/OptionsPage.php:395
+msgid "Display Tags in Thumbnails"
+msgstr ""
+
+#: html/OptionsPage.php:407
+msgid ""
+"Should the tags associated with a product be displayed in the product "
+"listing on the catalog page?"
+msgstr ""
+
+#: html/OptionsPage.php:415
+msgid "Catalog Page Functionality"
+msgstr ""
+
+#: html/OptionsPage.php:419 html/OptionsPage.php:422
+msgid "Product Links"
+msgstr ""
+
+#: html/OptionsPage.php:423
+msgid "Open in Same Window"
+msgstr ""
+
+#: html/OptionsPage.php:424
+msgid "Open in New Window"
+msgstr ""
+
+#: html/OptionsPage.php:425
+msgid "Open External Links Only in New Window"
+msgstr ""
+
+#: html/OptionsPage.php:426
+msgid "Should external product links open in a new window?"
+msgstr ""
+
+#: html/OptionsPage.php:431 html/OptionsPage.php:434
+msgid "Tag Logic"
+msgstr ""
+
+#: html/OptionsPage.php:435
+msgid "Selected Tags use 'AND'"
+msgstr ""
+
+#: html/OptionsPage.php:436
+msgid "Selected Tags use 'OR'"
+msgstr ""
+
+#: html/OptionsPage.php:437
+msgid ""
+"Gives users the option to use multiple tags at the same time in filtering "
+"('OR' option)"
+msgstr ""
+
+#: html/OptionsPage.php:442 html/OptionsPage.php:445 html/OptionsPage.php:462
+msgid "Allow Price Filtering"
+msgstr ""
+
+#: html/OptionsPage.php:454
+msgid "Should a price slider be added so that visitors can filter by price?"
+msgstr ""
+
+#: html/OptionsPage.php:459
+msgid "Slider Filter Text Inputs"
+msgstr ""
+
+#: html/OptionsPage.php:471
+msgid ""
+"Should slider filters have text inputs where users can adjust the min/max "
+"values?"
+msgstr ""
+
+#: html/OptionsPage.php:476 html/OptionsPage.php:479
+msgid "Catalog Overview Mode"
+msgstr ""
+
+#: html/OptionsPage.php:480
+msgid "Categories and Sub-Categories"
+msgstr ""
+
+#: html/OptionsPage.php:481
+msgid "Categories Only"
+msgstr ""
+
+#: html/OptionsPage.php:483
+msgid ""
+"Should visitors see an overview of the categories instead of all products "
+"when the page first loads?"
+msgstr ""
+
+#: html/OptionsPage.php:488 html/OptionsPage.php:491
+msgid "Product Search"
+msgstr ""
+
+#: html/OptionsPage.php:493
+msgid "Name Only"
+msgstr ""
+
+#: html/OptionsPage.php:494
+msgid "Name and Description"
+msgstr ""
+
+#: html/OptionsPage.php:495
+msgid "Name, Description and Custom Fields"
+msgstr ""
+
+#: html/OptionsPage.php:496
+msgid ""
+"Set the 'Product Search' text box to search either product name, product "
+"name and description or product name, description and custom fields (slowest "
+"option)"
+msgstr ""
+
+#: html/OptionsPage.php:501
+msgid "Case Insensitive Search (AJAX Only)"
+msgstr ""
+
+#: html/OptionsPage.php:504 html/OptionsPage.php:513
+msgid "Compare only the letters and not their case in AJAX search"
+msgstr ""
+
+#: html/OptionsPage.php:518 html/OptionsPage.php:521
+msgid "Results Filtering"
+msgstr ""
+
+#: html/OptionsPage.php:530
+msgid "Should filtering results be passed through the default content filter?"
+msgstr ""
+
+#: html/OptionsPage.php:535 html/OptionsPage.php:538
+msgid "'Clear All' Option"
+msgstr ""
+
+#: html/OptionsPage.php:547
+msgid ""
+"Should an option be added to the top of sidebar to clear all filtering "
+"options?"
+msgstr ""
+
+#: html/OptionsPage.php:552 html/OptionsPage.php:555
+msgid "Hide Empty Filtering Options"
+msgstr ""
+
+#: html/OptionsPage.php:564
+msgid ""
+"Should filtering options that would no longer display any results be hidden?"
+msgstr ""
+
+#: html/OptionsPage.php:572 html/OptionsPage.php:627 html/OptionsPage.php:1356
+#: html/StylingPage.php:163 html/StylingPage.php:649
+msgid "Product Page"
+msgstr ""
+
+#: html/OptionsPage.php:576 html/OptionsPage.php:579 html/StylingPage.php:1170
+msgid "Breadcrumbs"
+msgstr ""
+
+#: html/OptionsPage.php:583
+msgid "Sub-Categories"
+msgstr ""
+
+#: html/OptionsPage.php:584
+msgid "Which breadcrumbs, if any, should display on the product page?"
+msgstr ""
+
+#: html/OptionsPage.php:588
+msgid "Product Page Elements (Additional Info)"
+msgstr ""
+
+#: html/OptionsPage.php:591
+msgid "Extra Product Page Elements"
+msgstr ""
+
+#: html/OptionsPage.php:592
+msgid "Category Name"
+msgstr ""
+
+#: html/OptionsPage.php:593
+msgid "SubCategory Name"
+msgstr ""
+
+#: html/OptionsPage.php:596
+msgid "Videos"
+msgstr ""
+
+#: html/OptionsPage.php:598
+msgid "Select elements to be displayed on each product page."
+msgstr ""
+
+#: html/OptionsPage.php:603
+msgid "Display Product Page Price"
+msgstr ""
+
+#: html/OptionsPage.php:606
+msgid "Put Prices on the Default Product Pages"
+msgstr ""
+
+#: html/OptionsPage.php:615
+msgid "Should a product's price be displayed on the product pages?"
+msgstr ""
+
+#: html/OptionsPage.php:631
+msgid "Product Page Type"
+msgstr ""
+
+#: html/OptionsPage.php:634
+msgid ""
+"Use your custom designed page (Product Page tab) instead of the default?"
+msgstr ""
+
+#: html/OptionsPage.php:635
+msgid "Tabbed Product Page"
+msgstr ""
+
+#: html/OptionsPage.php:636
+msgid "Shop Style Product Page"
+msgstr ""
+
+#: html/OptionsPage.php:637
+msgid "Custom Product Page"
+msgstr ""
+
+#: html/OptionsPage.php:638
+msgid "Custom Page - Large Screen Only"
+msgstr ""
+
+#: html/OptionsPage.php:639 html/StylingPage.php:190 html/StylingPage.php:969
+#: html/StylingPage.php:1232
+msgid "Default"
+msgstr ""
+
+#: html/OptionsPage.php:640
+msgid ""
+"Should the layout created on the 'Product Pages' tab be used instead of the "
+"default plugin layout?"
+msgstr ""
+
+#: html/OptionsPage.php:645
+msgid "Lightbox"
+msgstr ""
+
+#: html/OptionsPage.php:648 html/OptionsPage.php:652
+msgid "Should a lightbox pop-up on the product page when an image is clicked?"
+msgstr ""
+
+#: html/OptionsPage.php:650
+msgid "Main Image Only"
+msgstr ""
+
+#: html/OptionsPage.php:653
+msgid ""
+"Want to customize this lightbox? Install the <a href='https://wordpress.org/"
+"plugins/ultimate-lightbox/' target='_blank'>Ultimate Lightbox</a> plugin and "
+"you can switch the lightbox colors, controls, behaviour and more!"
+msgstr ""
+
+#: html/OptionsPage.php:661 html/OptionsPage.php:665
+msgid ""
+"Should related products be created automatically, manually, or not at all?"
+msgstr ""
+
+#: html/OptionsPage.php:662 html/OptionsPage.php:674
+msgid "Automatic"
+msgstr ""
+
+#: html/OptionsPage.php:663 html/OptionsPage.php:675
+msgid "Manual"
+msgstr ""
+
+#: html/OptionsPage.php:673
+msgid "Should next and previous products be displayed?"
+msgstr ""
+
+#: html/OptionsPage.php:677
+msgid ""
+"Should next and previous products be displayed? Automatic takes the products "
+"with the next and previous IDs, if they exist."
+msgstr ""
+
+#: html/OptionsPage.php:696
+msgid "Catalog Page"
+msgstr ""
+
+#: html/OptionsPage.php:700 html/OptionsPage.php:703
+msgid "Lightbox Mode"
+msgstr ""
+
+#: html/OptionsPage.php:712
+msgid ""
+"Should a lightbox pop-up to display more information about products when "
+"they're clicked on?"
+msgstr ""
+
+#: html/OptionsPage.php:717 html/OptionsPage.php:720
+msgid "Infinite Scroll"
+msgstr ""
+
+#: html/OptionsPage.php:729
+msgid ""
+"Should products load as a user scrolls down the page, instead of using the "
+"pagination system?"
+msgstr ""
+
+#: html/OptionsPage.php:734
+msgid "Products per Page"
+msgstr ""
+
+#: html/OptionsPage.php:737
+msgid "How many products should be displayed on each page of the catalog?"
+msgstr ""
+
+#: html/OptionsPage.php:739
+msgid "Set the maximum number of products per page for your catalogs"
+msgstr ""
+
+#: html/OptionsPage.php:744
+msgid "Pagination Location"
+msgstr ""
+
+#: html/OptionsPage.php:747
+msgid "Where should the pagination controls be located?"
+msgstr ""
+
+#: html/OptionsPage.php:748
+msgid "Top"
+msgstr ""
+
+#: html/OptionsPage.php:749
+msgid "Bottom"
+msgstr ""
+
+#: html/OptionsPage.php:750
+msgid "Top and Bottom"
+msgstr ""
+
+#: html/OptionsPage.php:751
+msgid "Set the location of pagination controls for your catalogs"
+msgstr ""
+
+#: html/OptionsPage.php:756
+msgid "Product Sorting"
+msgstr ""
+
+#: html/OptionsPage.php:759
+msgid "Available Sorting Options"
+msgstr ""
+
+#: html/OptionsPage.php:760 html/ProductsPage.php:154 html/ProductsPage.php:204
+#: html/StylingPage.php:459 html/StylingPage.php:610 html/StylingPage.php:742
+#: html/StylingPage.php:862
+msgid "Price"
+msgstr ""
+
+#: html/OptionsPage.php:762
+msgid "Review Ratings"
+msgstr ""
+
+#: html/OptionsPage.php:763
+msgid ""
+"Select which sorting options are available in the 'Sort By' box ('Review "
+"Rating' requires 'Ultimate Reviews' to be installed)"
+msgstr ""
+
+#: html/OptionsPage.php:768
+msgid "Hidden Drop Down Sidebar on Mobile"
+msgstr ""
+
+#: html/OptionsPage.php:771
+msgid "Hidden Drop-Down Sidebar on Mobile"
+msgstr ""
+
+#: html/OptionsPage.php:780
+msgid ""
+"Will make it so that, on mobile devices, the sidebar is hidden by default. A "
+"'Filter' button will display allowing the user to open the sidebar."
+msgstr ""
+
+#: html/OptionsPage.php:799
+msgid "Features"
+msgstr ""
+
+#: html/OptionsPage.php:806 html/OptionsPage.php:815
+msgid ""
+"Should a form be added to inquire about products on the product page "
+"(requires plugin 'Contact Form 7')?"
+msgstr ""
+
+#: html/OptionsPage.php:808 html/OptionsPage.php:825
+msgid " (requires plugin 'Contact Form 7')"
+msgstr ""
+
+#: html/OptionsPage.php:820
+msgid "Product Inquiry Cart"
+msgstr ""
+
+#: html/OptionsPage.php:823 html/OptionsPage.php:832
+msgid ""
+"Should users be able to inquire about multiple products at once from the "
+"main catalog page (requires plugin 'Contact Form 7')?"
+msgstr ""
+
+#: html/OptionsPage.php:863
+msgid "Product Reviews"
+msgstr ""
+
+#: html/OptionsPage.php:866
+msgid ""
+"Should reviews be displayed for products on the Tabbed or Shop Style layout "
+"product page (requires Ultimate Reviews plugin)?"
+msgstr ""
+
+#: html/OptionsPage.php:868 html/OptionsPage.php:885
+msgid " (requires plugin 'Ultimate Reviews')"
+msgstr ""
+
+#: html/OptionsPage.php:875
+msgid ""
+"Should reviews be displayed for products on the 'Tabbed Layout' product page "
+"(requires plugin 'Ultimate Reviews')?"
+msgstr ""
+
+#: html/OptionsPage.php:880 html/OptionsPage.php:883
+msgid "Reviews in Main Catalog"
+msgstr ""
+
+#: html/OptionsPage.php:892
+msgid ""
+"Should a product's review rating be displayed on the main catalog page? "
+"(requires plugin '<a href='https://wordpress.org/plugins/ultimate-"
+"reviews/'>Ultimate Reviews</a>')?"
+msgstr ""
+
+#: html/OptionsPage.php:897 html/OptionsPage.php:900
+msgid "Allow Product Comparison"
+msgstr ""
+
+#: html/OptionsPage.php:909
+msgid ""
+"Should visitors be able to compare products side by side by clicking on the "
+"comparison link?"
+msgstr ""
+
+#: html/OptionsPage.php:914
+msgid "Hide Blank Custom Fields"
+msgstr ""
+
+#: html/OptionsPage.php:917 html/OptionsPage.php:926
+msgid "Should custom fields be hidden when they are empty?"
+msgstr ""
+
+#: html/OptionsPage.php:931
+msgid "Custom Slugs Conversion"
+msgstr ""
+
+#: html/OptionsPage.php:934 html/OptionsPage.php:943
+msgid "Are custom field slugs being used in the product descriptions?"
+msgstr ""
+
+#: html/OptionsPage.php:948
+msgid "Set Access Role"
+msgstr ""
+
+#: html/OptionsPage.php:961
+msgid "Which level of user should have access to UPCP?"
+msgstr ""
+
+#: html/OptionsPage.php:985 html/OptionsPage.php:1106 html/StylingPage.php:502
+#: html/StylingPage.php:640 html/StylingPage.php:768 html/StylingPage.php:888
+#: html/StylingPage.php:1166 html/StylingPage.php:1224
+#: html/StylingPage.php:1318
+msgid "Settings"
+msgstr ""
+
+#: html/OptionsPage.php:989
+msgid "WooCommerce Sync"
+msgstr ""
+
+#: html/OptionsPage.php:992 html/OptionsPage.php:1001
+msgid ""
+"Should UPCP products be exported to WooCommerce, and WooCommerce products "
+"imported into UPCP? Products edited in one plugin will also be edited in the "
+"other while this is enabled."
+msgstr ""
+
+#: html/OptionsPage.php:1002
+msgid ""
+"Using WooCommerce attributes or UPCP custom fields and want those to sync as "
+"well? Check out our blog post on how to <a href='http://www.etoilewebdesign."
+"com/product-catalog-woocommerce-sync-tips/'>get the best syncing results for "
+"attributes</a>."
+msgstr ""
+
+#: html/OptionsPage.php:1007 html/OptionsPage.php:1010
+msgid "Show Cart Item Count"
+msgstr ""
+
+#: html/OptionsPage.php:1019
+msgid "Should the number of items in a visitors shopping cart be displayed?"
+msgstr ""
+
+#: html/OptionsPage.php:1024
+msgid "WooCommerce Checkout"
+msgstr ""
+
+#: html/OptionsPage.php:1027 html/OptionsPage.php:1036
+msgid ""
+"Should checkout be allowed, using the standard WooCommerce checkout? "
+"WARNING: WooCommerce sync must be enabled."
+msgstr ""
+
+#: html/OptionsPage.php:1029
+msgid " (requires plugin 'WooCommerce')"
+msgstr ""
+
+#: html/OptionsPage.php:1041 html/OptionsPage.php:1044
+msgid "WooCommerce Cart Page"
+msgstr ""
+
+#: html/OptionsPage.php:1045
+msgid "Cart"
+msgstr ""
+
+#: html/OptionsPage.php:1046
+msgid "Checkout"
+msgstr ""
+
+#: html/OptionsPage.php:1047
+msgid ""
+"What WooCommerce page should visitors be sent to when they click the "
+"'Checkout' cart button? WARNING: WooCommerce sync must be enabled."
+msgstr ""
+
+#: html/OptionsPage.php:1053 html/OptionsPage.php:1056
+msgid "WooCommerce Product Page"
+msgstr ""
+
+#: html/OptionsPage.php:1065
+msgid ""
+"Should visitors be redirected to WooCommerce product pages instead of UPCP "
+"product pages when clicking on a product? WARNING: WooCommerce sync must be "
+"enabled."
+msgstr ""
+
+#: html/OptionsPage.php:1071 html/OptionsPage.php:1074
+msgid "WooCommerce Back Link"
+msgstr ""
+
+#: html/OptionsPage.php:1083
+msgid ""
+"Should the WooCommerce product page breadcrumbs be replaced with a 'Back to "
+"Catalog' link when coming directly from the catalog page? WARNING: 'Maintain "
+"Filtering' (in the 'Basic' options tab) must be set to 'Yes'."
+msgstr ""
+
+#: html/OptionsPage.php:1110
+msgid "Pretty Permalinks"
+msgstr ""
+
+#: html/OptionsPage.php:1113
+msgid "Use Pretty Permalinks for Product Pages"
+msgstr ""
+
+#: html/OptionsPage.php:1122
+msgid ""
+"Should the plugin create SEO-friendly product page URLs? (Make sure product "
+"slugs have been filled in)"
+msgstr ""
+
+#: html/OptionsPage.php:1127
+msgid "Permalink Base"
+msgstr ""
+
+#: html/OptionsPage.php:1130 html/OptionsPage.php:1140
+msgid "What URL should be used at the base of the products sitemap?"
+msgstr ""
+
+#: html/OptionsPage.php:1132
+msgid ""
+"Set the permalink base for your product pages, if you want something other "
+"than 'product' as a permalink base. You may need to re-save your permalink "
+"structure for this to take effect."
+msgstr ""
+
+#: html/OptionsPage.php:1137
+msgid "XML Sitemap URL"
+msgstr ""
+
+#: html/OptionsPage.php:1142
+msgid ""
+"Set the base URL path of XML sitemap that the plugin creates of all products "
+"(e.g. if you set a different permalink base above). You can find the sitemap "
+"in the root folder of the plugin (i.e. \"/wp-content/plugins/ultimate-"
+"product-catalogue/upcp-site-map.xml\")."
+msgstr ""
+
+#: html/OptionsPage.php:1147
+msgid "SEO By Yoast Integration"
+msgstr ""
+
+#: html/OptionsPage.php:1150
+msgid ""
+"Should product descriptions and titled be added using SEO By Yoast for "
+"product pages?"
+msgstr ""
+
+#: html/OptionsPage.php:1159
+msgid "Should descriptions and titles for product pages be added using Yoast?"
+msgstr ""
+
+#: html/OptionsPage.php:1164
+msgid "Description Handling"
+msgstr ""
+
+#: html/OptionsPage.php:1167
+msgid "Should the page description be added to or replaced?"
+msgstr ""
+
+#: html/OptionsPage.php:1168
+msgid "Add"
+msgstr ""
+
+#: html/OptionsPage.php:1169
+msgid "Replace"
+msgstr ""
+
+#: html/OptionsPage.php:1170
+msgid "If using Yoast, should the page description be added to or replaced?"
+msgstr ""
+
+#: html/OptionsPage.php:1174
+msgid "SEO Title"
+msgstr ""
+
+#: html/OptionsPage.php:1177 html/OptionsPage.php:1179
+msgid ""
+"What should the page title be set to? Can use [page-title], [product-name], "
+"[category-name], [subcategory_name] to substitute those in the title."
+msgstr ""
+
+#: html/OptionsPage.php:1202 html/StylingPage.php:162
+msgid "Sidebar"
+msgstr ""
+
+#: html/OptionsPage.php:1209
+msgid "Categories Label"
+msgstr ""
+
+#: html/OptionsPage.php:1213
+msgid "Sub-Categories Label"
+msgstr ""
+
+#: html/OptionsPage.php:1217
+msgid "Tags Label"
+msgstr ""
+
+#: html/OptionsPage.php:1221
+msgid "Custom Fields Label"
+msgstr ""
+
+#: html/OptionsPage.php:1225
+msgid "Show All Label"
+msgstr ""
+
+#: html/OptionsPage.php:1229
+msgid "Sort By Label"
+msgstr ""
+
+#: html/OptionsPage.php:1233
+msgid "Price (Ascending) Label"
+msgstr ""
+
+#: html/OptionsPage.php:1237
+msgid "Price (Descending) Label"
+msgstr ""
+
+#: html/OptionsPage.php:1241
+msgid "Name (Ascending) Label"
+msgstr ""
+
+#: html/OptionsPage.php:1245
+msgid "Name (Descending) Label"
+msgstr ""
+
+#: html/OptionsPage.php:1249
+msgid "Product Search (Product Name) Label"
+msgstr ""
+
+#: html/OptionsPage.php:1253
+msgid "Search Placeholder Label"
+msgstr ""
+
+#: html/OptionsPage.php:1257
+msgid "Price Filter/Slider Label"
+msgstr ""
+
+#: html/OptionsPage.php:1282
+msgid "Details Label"
+msgstr ""
+
+#: html/OptionsPage.php:1286
+msgid "Updating Results Label"
+msgstr ""
+
+#: html/OptionsPage.php:1290
+msgid "No Products Found Label"
+msgstr ""
+
+#: html/OptionsPage.php:1294
+msgid "Products Pagination Label"
+msgstr ""
+
+#: html/OptionsPage.php:1298
+msgid "'Of' Pagination Label"
+msgstr ""
+
+#: html/OptionsPage.php:1302
+msgid "Read More Label"
+msgstr ""
+
+#: html/OptionsPage.php:1306
+msgid "Compare Label"
+msgstr ""
+
+#: html/OptionsPage.php:1310
+msgid "Side by side Label"
+msgstr ""
+
+#: html/OptionsPage.php:1314
+msgid "Sale Label"
+msgstr ""
+
+#: html/OptionsPage.php:1318
+msgid "Inquire Label"
+msgstr ""
+
+#: html/OptionsPage.php:1322
+msgid "Add to Cart Label"
+msgstr ""
+
+#: html/OptionsPage.php:1326
+msgid "Send Inquiry! Label"
+msgstr ""
+
+#: html/OptionsPage.php:1330
+msgid "Checkout! Label"
+msgstr ""
+
+#: html/OptionsPage.php:1334
+msgid "Empty cart Label"
+msgstr ""
+
+#: html/OptionsPage.php:1338
+#, php-format
+msgid "'%s items in cart' Label"
+msgstr ""
+
+#: html/OptionsPage.php:1363
+msgid "Back to Catalog Label"
+msgstr ""
+
+#: html/OptionsPage.php:1367
+msgid "Product Details Tab Label"
+msgstr ""
+
+#: html/OptionsPage.php:1371
+msgid "Additional Information Tab Label"
+msgstr ""
+
+#: html/OptionsPage.php:1375
+msgid "Contact Us Tab Label"
+msgstr ""
+
+#: html/OptionsPage.php:1379
+msgid "Product Inquiry Form Label"
+msgstr ""
+
+#: html/OptionsPage.php:1383
+msgid "Customer Reviews Tab Label"
+msgstr ""
+
+#: html/OptionsPage.php:1387
+msgid "Related Products Label"
+msgstr ""
+
+#: html/OptionsPage.php:1391
+msgid "Next Product Label"
+msgstr ""
+
+#: html/OptionsPage.php:1395
+msgid "Previous Product Label"
+msgstr ""
+
+#: html/OptionsPage.php:1399
+msgid "Category Label (Additional Information tab)"
+msgstr ""
+
+#: html/OptionsPage.php:1403
+msgid "Sub-category Label (Additional Information tab)"
+msgstr ""
+
+#: html/OptionsPage.php:1407
+msgid "Tags Label (Additional Information tab)"
+msgstr ""
+
+#: html/OptionsPage.php:1425
+msgid "Other"
+msgstr ""
+
+#: html/OptionsPage.php:1431
+msgid "'Please use...' Label in Product Inquiry"
+msgstr ""
+
+#: html/OrdersPage.php:28 html/OrdersPage.php:118 html/StylingPage.php:897
+msgid "Hide"
+msgstr ""
+
+#: html/OrdersPage.php:52 html/OrdersPage.php:74
+msgid "Order Date"
+msgstr ""
+
+#: html/OrdersPage.php:135
+msgid "Add a New Order"
+msgstr ""
+
+#: html/OrdersPage.php:143
+msgid "The name of the order that will be displayed."
+msgstr ""
+
+#: html/OrdersPage.php:148
+msgid "The description of the order, to help with processing it."
+msgstr ""
+
+#: html/OrdersPage.php:151
+msgid "Items"
+msgstr ""
+
+#: html/OrdersPage.php:153 html/OrdersPage.php:159
+msgid "The items that were purchased in the order."
+msgstr ""
+
+#: html/OrdersPage.php:156
+msgid "Sale?"
+msgstr ""
+
+#: html/ProductDetails.php:105
+msgid "Current Image"
+msgstr ""
+
+#: html/ProductDetails.php:252
+msgid "Delete Current File"
+msgstr ""
+
+#: html/ProductDetails.php:319
+msgid "Choose Image"
+msgstr ""
+
+#: html/ProductDetails.php:322
+msgid "Add Image"
+msgstr ""
+
+#: html/ProductDetails.php:324
+msgid "Current Images:"
+msgstr ""
+
+#: html/ProductDetails.php:363
+msgid "What type of video are you using?"
+msgstr ""
+
+#: html/ProductDetails.php:367
+msgid "YouTube Video ID"
+msgstr ""
+
+#: html/ProductDetails.php:392 html/ProductDetails.php:414
+msgid "Video Image"
+msgstr ""
+
+#: html/ProductDetails.php:393 html/ProductDetails.php:415
+msgid "Video Description"
+msgstr ""
+
+#: html/ProductsPage.php:6 html/ProductsPage.php:501
+msgid "Add New Product"
+msgstr ""
+
+#: html/ProductsPage.php:8
+msgid "Manually"
+msgstr ""
+
+#: html/ProductsPage.php:9
+msgid "From Spreadsheet"
+msgstr ""
+
+#: html/ProductsPage.php:13
+msgid "Export Products to Spreasheet"
+msgstr ""
+
+#: html/ProductsPage.php:17
+msgid "Export to CSV"
+msgstr ""
+
+#: html/ProductsPage.php:20
+msgid "Export to Excel"
+msgstr ""
+
+#: html/ProductsPage.php:23
+msgid ""
+"The full version of the Ultimate Product Catalog Plugin is required to "
+"export products."
+msgstr ""
+
+#: html/ProductsPage.php:23
+msgid "Please upgrade to unlock this feature!"
+msgstr ""
+
+#: html/ProductsPage.php:86
+msgid "All Categories"
+msgstr ""
+
+#: html/ProductsPage.php:97
+msgid "All Sub-Categories"
+msgstr ""
+
+#: html/ProductsPage.php:175 html/ProductsPage.php:225
+msgid "# of Views"
+msgstr ""
+
+#: html/ProductsPage.php:266
+msgid "Duplicate Product"
+msgstr ""
+
+#: html/ProductsPage.php:313
+msgid "Add Product Manually"
+msgstr ""
+
+#: html/ProductsPage.php:330
+msgid "Upload Image"
+msgstr ""
+
+#: html/ProductsPage.php:339
+msgid ""
+"Sale price is only shown if the checkbox below is selected or 'Sale Mode' is "
+"selected in the 'Options' tab."
+msgstr ""
+
+#: html/ProductsPage.php:346
+msgid "Product Description"
+msgstr ""
+
+#: html/ProductsPage.php:482
+msgid ""
+"What products are related to this one? (premium feature, input product IDs)"
+msgstr ""
+
+#: html/ProductsPage.php:507
+msgid "Add Products from Spreadsheet"
+msgstr ""
+
+#: html/ProductsPage.php:511
+msgid "Spreadsheet Containing Products"
+msgstr ""
+
+#: html/ProductsPage.php:513
+msgid ""
+"The spreadsheet containing all of the products you wish to add. Make sure "
+"that the column title names are the same as the field names for products "
+"(ex: Name, Price, etc.), and that any categories and sub-categories are "
+"written exactly the same as they are online."
+msgstr ""
+
+#: html/ProductsPage.php:514
+msgid "Download Sample Spreadsheet"
+msgstr ""
+
+#: html/ProductsPage.php:516
+msgid "Add New Products"
+msgstr ""
+
+#: html/StylingPage.php:159
+msgid "Thumbnail"
+msgstr ""
+
+#: html/StylingPage.php:160
+msgid "List"
+msgstr ""
+
+#: html/StylingPage.php:161
+msgid "Detail"
+msgstr ""
+
+#: html/StylingPage.php:164
+msgid "Pagination"
+msgstr ""
+
+#: html/StylingPage.php:166
+msgid "Custom"
+msgstr ""
+
+#: html/StylingPage.php:186
+msgid "Catalog Style"
+msgstr ""
+
+#: html/StylingPage.php:189 html/StylingPage.php:197
+msgid "Selects a layout style for your catalog."
+msgstr ""
+
+#: html/StylingPage.php:191 html/StylingPage.php:231 html/StylingPage.php:972
+msgid "Block"
+msgstr ""
+
+#: html/StylingPage.php:192 html/StylingPage.php:971
+msgid "Minimalist"
+msgstr ""
+
+#: html/StylingPage.php:193
+msgid "Hover"
+msgstr ""
+
+#: html/StylingPage.php:194 html/StylingPage.php:973
+msgid "Contemporary"
+msgstr ""
+
+#: html/StylingPage.php:195
+msgid "Showcase"
+msgstr ""
+
+#: html/StylingPage.php:202
+msgid "Add New Catalog Style"
+msgstr ""
+
+#: html/StylingPage.php:205
+msgid "Upload a new style for your catalog."
+msgstr ""
+
+#: html/StylingPage.php:209
+msgid "CSS File:"
+msgstr ""
+
+#: html/StylingPage.php:213
+msgid "JavaScript File:"
+msgstr ""
+
+#: html/StylingPage.php:221
+msgid ""
+"Use the two input boxes above to upload a new set of CSS and JavaScript "
+"styles for your catalog. The CSS file needs to have a commented-out area at "
+"the top with a unique name and slug, which will make it show in the catalog "
+"styles list above. Both file names should be the same and they need to start "
+"with \"catalogue-style-\". So, for example: \"catalogue-style-mynewstyle.css"
+"\" and \"catalogue-style-mynewstyle.js\". A template for the CSS file can be "
+"found <a href=\"https://www.etoilewebdesign.com/Screenshots/catalogue-style-"
+"mynewstyle.css\" target=\"_blank\" download>here</a>."
+msgstr ""
+
+#: html/StylingPage.php:226
+msgid "Category Heading Style"
+msgstr ""
+
+#: html/StylingPage.php:229 html/StylingPage.php:233
+msgid "Selects a style for the category headings in your catalog views."
+msgstr ""
+
+#: html/StylingPage.php:232
+msgid "Not Displayed"
+msgstr ""
+
+#: html/StylingPage.php:252
+msgid "Button Styles"
+msgstr ""
+
+#: html/StylingPage.php:256
+msgid "Compare Button:"
+msgstr ""
+
+#: html/StylingPage.php:259 html/StylingPage.php:296
+msgid "Background Color"
+msgstr ""
+
+#: html/StylingPage.php:262 html/StylingPage.php:275
+msgid "Regular"
+msgstr ""
+
+#: html/StylingPage.php:266 html/StylingPage.php:279
+msgid "Clicked"
+msgstr ""
+
+#: html/StylingPage.php:272 html/StylingPage.php:305 html/StylingPage.php:448
+#: html/StylingPage.php:1173
+msgid "Text Color"
+msgstr ""
+
+#: html/StylingPage.php:285 html/StylingPage.php:314 html/StylingPage.php:415
+#: html/StylingPage.php:442 html/StylingPage.php:462 html/StylingPage.php:1056
+#: html/StylingPage.php:1088 html/StylingPage.php:1120
+#: html/StylingPage.php:1186
+msgid "Font Size"
+msgstr ""
+
+#: html/StylingPage.php:293
+msgid "Sale Button:"
+msgstr ""
+
+#: html/StylingPage.php:334
+msgid "Details Image"
+msgstr ""
+
+#: html/StylingPage.php:338
+msgid "Details Image Type"
+msgstr ""
+
+#: html/StylingPage.php:342
+msgid "Default Image"
+msgstr ""
+
+#: html/StylingPage.php:343
+msgid "Custom Image"
+msgstr ""
+
+#: html/StylingPage.php:344
+msgid "Font Icon (right or below)"
+msgstr ""
+
+#: html/StylingPage.php:350
+msgid "Custom 'Details' Image"
+msgstr ""
+
+#: html/StylingPage.php:358
+msgid ""
+"Upload an image to use instead of the default arrow icon. This option "
+"requires 'Custom Image' to be selected for the option above."
+msgstr ""
+
+#: html/StylingPage.php:364
+msgid "Choose Font Icon"
+msgstr ""
+
+#: html/StylingPage.php:403
+msgid "Font Icon Options"
+msgstr ""
+
+#: html/StylingPage.php:406
+msgid "Font Icon Color"
+msgstr ""
+
+#: html/StylingPage.php:435
+msgid "Product Comparison Page"
+msgstr ""
+
+#: html/StylingPage.php:439 html/StylingPage.php:606 html/StylingPage.php:738
+#: html/StylingPage.php:858
+msgid "Title"
+msgstr ""
+
+#: html/StylingPage.php:468 html/StylingPage.php:603 html/StylingPage.php:735
+#: html/StylingPage.php:825 html/StylingPage.php:855
+msgid "Colors"
+msgstr ""
+
+#: html/StylingPage.php:471
+msgid "Text"
+msgstr ""
+
+#: html/StylingPage.php:475 html/StylingPage.php:614 html/StylingPage.php:832
+msgid "Background"
+msgstr ""
+
+#: html/StylingPage.php:506 html/StylingPage.php:656 html/StylingPage.php:772
+msgid "Image Options"
+msgstr ""
+
+#: html/StylingPage.php:509 html/StylingPage.php:659 html/StylingPage.php:775
+msgid "Image Height"
+msgstr ""
+
+#: html/StylingPage.php:515 html/StylingPage.php:665 html/StylingPage.php:781
+msgid "Image Width"
+msgstr ""
+
+#: html/StylingPage.php:521 html/StylingPage.php:671 html/StylingPage.php:787
+msgid "Image Holder Height"
+msgstr ""
+
+#: html/StylingPage.php:527 html/StylingPage.php:793
+msgid "Image Holder Width"
+msgstr ""
+
+#: html/StylingPage.php:533 html/StylingPage.php:677 html/StylingPage.php:799
+msgid "Image Border Color"
+msgstr ""
+
+#: html/StylingPage.php:544 html/StylingPage.php:688 html/StylingPage.php:810
+msgid "Box Options"
+msgstr ""
+
+#: html/StylingPage.php:547
+msgid "Box Width"
+msgstr ""
+
+#: html/StylingPage.php:553
+msgid "Box Min-Height"
+msgstr ""
+
+#: html/StylingPage.php:559
+msgid "Box Max-Height"
+msgstr ""
+
+#: html/StylingPage.php:565 html/StylingPage.php:691 html/StylingPage.php:813
+msgid "Box Padding"
+msgstr ""
+
+#: html/StylingPage.php:571 html/StylingPage.php:819
+msgid "Box Margin"
+msgstr ""
+
+#: html/StylingPage.php:577
+msgid "Box Border Color"
+msgstr ""
+
+#: html/StylingPage.php:588 html/StylingPage.php:720 html/StylingPage.php:840
+msgid "Item Options"
+msgstr ""
+
+#: html/StylingPage.php:591 html/StylingPage.php:723 html/StylingPage.php:843
+msgid "Title Font Size"
+msgstr ""
+
+#: html/StylingPage.php:597 html/StylingPage.php:729 html/StylingPage.php:849
+msgid "Price Font Size"
+msgstr ""
+
+#: html/StylingPage.php:644
+msgid "Product Click Action"
+msgstr ""
+
+#: html/StylingPage.php:648
+msgid "Expand"
+msgstr ""
+
+#: html/StylingPage.php:650
+msgid ""
+"When a product is clicked in list view, should the listing expand or should "
+"the user be sent to the product page?"
+msgstr ""
+
+#: html/StylingPage.php:697
+msgid "Box Left Margin"
+msgstr ""
+
+#: html/StylingPage.php:703
+msgid "Box Top Margin"
+msgstr ""
+
+#: html/StylingPage.php:709
+msgid "Border Color"
+msgstr ""
+
+#: html/StylingPage.php:828
+msgid "Border"
+msgstr ""
+
+#: html/StylingPage.php:892
+msgid "Show/Hide Custom Fields"
+msgstr ""
+
+#: html/StylingPage.php:895 html/StylingPage.php:898
+msgid ""
+"Should custom fields in the sidebar show or be hidden when the page loads?"
+msgstr ""
+
+#: html/StylingPage.php:896
+msgid "Show"
+msgstr ""
+
+#: html/StylingPage.php:903
+msgid "Collapsible Sidebar"
+msgstr ""
+
+#: html/StylingPage.php:906 html/StylingPage.php:915 html/StylingPage.php:923
+#: html/StylingPage.php:940
+msgid "Should sidebar titles collapse on-click?"
+msgstr ""
+
+#: html/StylingPage.php:920
+msgid "Collapsible Sub-Categories (Requires Hierarchical)"
+msgstr ""
+
+#: html/StylingPage.php:932
+msgid ""
+"Should sidebar sub-categories collapse under each category? Requires the Sub-"
+"Category Style (in the Basic area of the options) to be set to Hierarchical."
+msgstr ""
+
+#: html/StylingPage.php:937
+msgid "Sidebar Start Collapsed"
+msgstr ""
+
+#: html/StylingPage.php:949
+msgid ""
+"Should sidebar content start collapsed? (Requires collapsible sidebar to be "
+"set to 'Yes')"
+msgstr ""
+
+#: html/StylingPage.php:954
+msgid "Sidebar Title Hover Effect"
+msgstr ""
+
+#: html/StylingPage.php:957 html/StylingPage.php:960
+msgid "Which hover effect should apply on sidebar titles?"
+msgstr ""
+
+#: html/StylingPage.php:959
+msgid "Underline"
+msgstr ""
+
+#: html/StylingPage.php:965
+msgid "Sidebar Styling"
+msgstr ""
+
+#: html/StylingPage.php:968
+msgid "Which style of checkbox should be applied to sidebar items?"
+msgstr ""
+
+#: html/StylingPage.php:970
+msgid "Checkmark"
+msgstr ""
+
+#: html/StylingPage.php:974
+msgid "Which style should be applied to the catalog sidebar?"
+msgstr ""
+
+#: html/StylingPage.php:979 html/StylingPage.php:982
+msgid "Categories Control Type"
+msgstr ""
+
+#: html/StylingPage.php:986
+msgid "Which type of control should be used to filter categories?"
+msgstr ""
+
+#: html/StylingPage.php:991 html/StylingPage.php:994
+msgid "Sub-Categories Control Type"
+msgstr ""
+
+#: html/StylingPage.php:998
+msgid "Which type of control should be used to filter sub-categories?"
+msgstr ""
+
+#: html/StylingPage.php:1003 html/StylingPage.php:1006
+msgid "Tags Control Type"
+msgstr ""
+
+#: html/StylingPage.php:1010
+msgid "Which type of control should be used to filter tags?"
+msgstr ""
+
+#: html/StylingPage.php:1015 html/StylingPage.php:1018
+msgid "Sidebar Items Order"
+msgstr ""
+
+#: html/StylingPage.php:1024
+msgid "What order should the filtering controls appear in?"
+msgstr ""
+
+#: html/StylingPage.php:1043
+msgid "Fonts and Colors"
+msgstr ""
+
+#: html/StylingPage.php:1047
+msgid "Sidebar Title"
+msgstr ""
+
+#: html/StylingPage.php:1050 html/StylingPage.php:1082
+#: html/StylingPage.php:1114
+msgid "Font Family (must already be loaded on your site)"
+msgstr ""
+
+#: html/StylingPage.php:1062 html/StylingPage.php:1094
+#: html/StylingPage.php:1126
+msgid "Font Weight"
+msgstr ""
+
+#: html/StylingPage.php:1068 html/StylingPage.php:1100
+#: html/StylingPage.php:1132
+msgid "Color"
+msgstr ""
+
+#: html/StylingPage.php:1079
+msgid "Sidebar Subtitle"
+msgstr ""
+
+#: html/StylingPage.php:1111
+msgid "Checkbox Options"
+msgstr ""
+
+#: html/StylingPage.php:1162
+msgid "Product Page Styling"
+msgstr ""
+
+#: html/StylingPage.php:1176
+msgid "Normally"
+msgstr ""
+
+#: html/StylingPage.php:1180
+msgid "On Hover"
+msgstr ""
+
+#: html/StylingPage.php:1192
+msgid "Font Family"
+msgstr ""
+
+#: html/StylingPage.php:1228
+msgid "Pagination Border"
+msgstr ""
+
+#: html/StylingPage.php:1231 html/StylingPage.php:1236
+msgid "Selects a border for pagination links."
+msgstr ""
+
+#: html/StylingPage.php:1241
+msgid "Pagination Shadow"
+msgstr ""
+
+#: html/StylingPage.php:1244 html/StylingPage.php:1253
+msgid "Should a shadow be added to pagination links?"
+msgstr ""
+
+#: html/StylingPage.php:1258
+msgid "Pagination Gradient"
+msgstr ""
+
+#: html/StylingPage.php:1261 html/StylingPage.php:1270
+msgid "Should a gradient be added to pagination links (on hover)?"
+msgstr ""
+
+#: html/StylingPage.php:1275
+msgid "Pagination Font"
+msgstr ""
+
+#: html/StylingPage.php:1278
+msgid "Pagination Color"
+msgstr ""
+
+#: html/StylingPage.php:1280
+msgid "Selects a font color for pagination links."
+msgstr ""
+
+#: html/StylingPage.php:1322
+msgid "Product Page Grid Width"
+msgstr ""
+
+#: html/StylingPage.php:1325
+msgid "How wide should each product grid be? (in pixels)"
+msgstr ""
+
+#: html/StylingPage.php:1327
+msgid ""
+"How wide should the grid elements used to build custom product pages be? (in "
+"pixels)"
+msgstr ""
+
+#: html/StylingPage.php:1332
+msgid "Product Page Grid Height"
+msgstr ""
+
+#: html/StylingPage.php:1335
+msgid "How tall should each product grid be? (in pixels)"
+msgstr ""
+
+#: html/StylingPage.php:1337
+msgid ""
+"How tall should the grid elements used to build custom product pages be? (in "
+"pixels)"
+msgstr ""
+
+#: html/StylingPage.php:1342
+msgid "Top and Bottom Padding"
+msgstr ""
+
+#: html/StylingPage.php:1345
+msgid "How much padding should be above and below each grid? (in pixels)"
+msgstr ""
+
+#: html/StylingPage.php:1347
+msgid ""
+"How much padding should be above and below each grid element used to build "
+"custom product? (in pixels)"
+msgstr ""
+
+#: html/StylingPage.php:1352
+msgid "Right and Left Padding"
+msgstr ""
+
+#: html/StylingPage.php:1355
+msgid ""
+"How much padding should be to the right and left of each grid? (in pixels)"
+msgstr ""
+
+#: html/StylingPage.php:1357
+msgid ""
+"How much padding should be to the right and left each grid element used to "
+"build custom product? (in pixels)"
+msgstr ""
+
+#: html/SubCategoriesPage.php:58 html/SubCategoriesPage.php:92
+msgid "Parent Category"
+msgstr ""
+
+#: html/SubCategoriesPage.php:72 html/SubCategoriesPage.php:106
+#: html/SubCategoryDetails.php:17
+msgid "Products in Sub-Category"
+msgstr ""
+
+#: html/SubCategoriesPage.php:180
+msgid "Add a New Sub-Category"
+msgstr ""
+
+#: html/SubCategoriesPage.php:188
+msgid "The name of the sub-category for your own purposes."
+msgstr ""
+
+#: html/SubCategoriesPage.php:191
+msgid "Parent Category:"
+msgstr ""
+
+#: html/SubCategoriesPage.php:199 html/SubCategoryDetails.php:63
+msgid ""
+"What category is this product in? Categories help to organize your product "
+"catalogs and help your customers to find what they're looking for."
+msgstr ""
+
+#: html/SubCategoriesPage.php:204
+msgid "The description of the sub-category. What will it be used to display?"
+msgstr ""
+
+#: html/SubCategoriesPage.php:210
+msgid ""
+"An image that will be displayed in association with this sub-category, if "
+"that option is selected in the 'Options' tab."
+msgstr ""
+
+#: html/SubCategoriesPage.php:213
+msgid "Add New Sub-Category"
+msgstr ""
+
+#: html/SubCategoryDetails.php:50
+msgid "The name of the sub-category your users will see and search for."
+msgstr ""
+
+#: html/SubCategoryDetails.php:68
+msgid ""
+"The description of the sub-category. What products are included in this?"
+msgstr ""
+
+#: html/SubCategoryDetails.php:74
+msgid ""
+"An image that will be displayed in association with this sub-category, if "
+"that option is selected in the 'Options' tab. Current Image:"
+msgstr ""
+
+#: html/TagDetails.php:8
+msgid "Products in Tag"
+msgstr ""
+
+#: html/TagDetails.php:42
+msgid "The name of the tag your users will see and search for."
+msgstr ""
+
+#: html/TagDetails.php:47
+msgid "The description of the tag. What products are included in this?"
+msgstr ""
+
+#: html/TagDetails.php:51 html/TagsPage.php:205
+msgid "Tag Group:"
+msgstr ""
+
+#: html/TagGroupDetails.php:7
+msgid "Tags in Tag Group"
+msgstr ""
+
+#: html/TagGroupDetails.php:37 html/TagsPage.php:269 html/TagsPage.php:291
+msgid "Tag Group Name"
+msgstr ""
+
+#: html/TagGroupDetails.php:39
+msgid "The name of the group of tags that have similar properties."
+msgstr ""
+
+#: html/TagGroupDetails.php:45
+msgid ""
+"The description of the tag group. What tags should be included in this group?"
+msgstr ""
+
+#: html/TagGroupDetails.php:48 html/TagsPage.php:247
+msgid "Display Tag Group"
+msgstr ""
+
+#: html/TagGroupDetails.php:51 html/TagsPage.php:250
+msgid "Should this tag group be displayed on the page?"
+msgstr ""
+
+#: html/TagsPage.php:68 html/TagsPage.php:102
+msgid "Products Tagged"
+msgstr ""
+
+#: html/TagsPage.php:75 html/TagsPage.php:109
+msgid "Tag Group"
+msgstr ""
+
+#: html/TagsPage.php:171 html/TagsPage.php:172
+msgid "disabled"
+msgstr ""
+
+#: html/TagsPage.php:188
+msgid "Add a New Tag"
+msgstr ""
+
+#: html/TagsPage.php:196
+msgid "The name of the tag for your own purposes."
+msgstr ""
+
+#: html/TagsPage.php:201
+msgid "The description of the tag. What will it be used to display?"
+msgstr ""
+
+#: html/TagsPage.php:219
+msgid "Assign the tag to a group"
+msgstr ""
+
+#: html/TagsPage.php:222
+msgid "Add New Tag"
+msgstr ""
+
+#: html/TagsPage.php:232
+msgid "Add a New Tag Group"
+msgstr ""
+
+#: html/TagsPage.php:238
+msgid "New Tag Group"
+msgstr ""
+
+#: html/TagsPage.php:240
+msgid "Create a name for the new tag group"
+msgstr ""
+
+#: html/TagsPage.php:243 html/TagsPage.php:270 html/TagsPage.php:292
+msgid "Tag Group Description"
+msgstr ""
+
+#: html/TagsPage.php:245
+msgid "What tags should belong to this group?"
+msgstr ""
+
+#: html/TagsPage.php:252
+msgid "Add New Tag Group"
+msgstr ""
+
+#: html/TagsPage.php:263
+msgid "Edit Tag Group"
+msgstr ""
+
+#: html/TagsPage.php:264
+msgid "Edit Tag Group:"
+msgstr ""
+
+#: html/TagsPage.php:268 html/TagsPage.php:290
+msgid "Edit/Delete"
+msgstr ""
+
+#: html/TagsPage.php:280
+msgid "Edit"
+msgstr ""

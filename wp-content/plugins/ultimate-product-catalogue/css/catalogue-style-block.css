@@ -1,0 +1,112 @@
+.prod-cat-information-name h3{
+	text-align:center;
+}
+
+.upcp-thumb-title a, .upcp-list-title a, .upcp-detail-title a{
+    font-size: 16px;
+    color: #4E5152 !important;
+}
+
+.upcp-thumb-item {
+    border-color:  #4E5152;
+    overflow:visible;
+    min-height: 0;
+    max-height: none;
+    z-index: 0;
+    margin:10px;
+}
+
+.upcp-thumb-title{
+    background-color: #ffffff;
+    border-bottom: none;
+    }
+.upcp-thumb-image-div:hover {
+    background: #fff !important;
+}
+.upcp-thumb-image {
+    max-height: 100%;
+}
+.upcp-thumb-title {
+    padding-top: 6px;
+}
+.upcp-thumb-price {
+    color: #ffffff !important;
+    display: none;
+    line-height: 30px;
+}
+.upcp-thumb-details-link {
+    background: #4e5152 none repeat scroll 0 0 !important;
+    color: #ffffff !important;
+    height: auto;
+    line-height: 30px;
+    margin: 10px 0 0;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.upcp-thumb-details-link:after {
+    content: url("../images/upcp-arrow-white.png");
+    display: block; 
+    float:right;
+}
+
+.upcp-thumb-details-end {
+        background: #4E5152;
+        width: 100%;
+}
+
+.upcp-thumb-image-div {
+    background: #fff !important;
+    margin: 0 !important;
+    height: 200px;
+    width: 100%;
+}
+.prod-cat-addt-details-price {
+    margin: -10px -10px 0 0;
+}
+
+/*DETAILS STYLING*/
+.upcp-detail-item {
+    border-color:  #4E5152;
+    border: 1px solid;
+ 
+}
+.upcp-detail-title {
+    color: #4E5152;
+}
+.upcp-detail-image-div {
+    margin: 0;
+    background:#fff;
+}
+.upcp-mid-detail-div {
+    background-color: #ffffff;
+    border: medium none !important;
+}
+.upcp-detail-price {
+    font-size: x-large;
+        color:#ffffff !important;
+}
+.upcp-end-detail-div {
+       background: #4E5152;
+    border-color:  #4E5152;
+}
+.upcp-detail-details-link{
+    color:#ffffff;
+}
+.upcp-detail-desc a{
+    color: #e0e0e0;
+}
+.upcp-related-products {
+    margin-left: 0 !important;
+}
+.upcp-related-products-title {
+    background: #4E5152 none repeat scroll 0 0;
+    color: #ffffff;
+    margin: 40px 7px 10px 3px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.upcp-list-details-link, .upcp-detail-details-link {
+	background:none !important;
+}

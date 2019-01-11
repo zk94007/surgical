@@ -1,0 +1,78 @@
+/*Sidebar*/
+div#prod-cat-price-filter {
+    width:85%;
+}
+
+.prod-cat-sidebar{
+    margin-bottom: 15px;
+}
+
+.prod-cat-sidebar > form > div {
+    margin: 11px;
+}
+
+.upcp-custom-field-slider,
+#upcp-price-score-filter {
+    margin-left: 7px;
+}
+
+.prod-cat-sidebar-cat-title {
+    text-transform: uppercase;
+}
+
+.prod-cat-sidebar-cat-title h3 {
+    font-size: 16px;
+    color: #777;
+}
+
+.post-content h3 {
+    font-size: 16px;
+}
+
+.prod-cat-sidebar-content .upcp-label {
+    color: #777;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.prod-cat-text-search {
+    font-size: 19px;
+    color: #777;
+    text-transform: uppercase;
+}
+
+div#prod-cat-text-search {
+    margin-bottom: 25px;
+}
+
+input#upcp-name-search {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.prod-cat-price-filter {
+    font-size: 19px;
+    color: #777;
+    text-transform: uppercase;
+}
+
+div#prod-cat-price-filter {
+    margin-bottom: 30px;
+}
+
+span#upcp-price-range {
+    font-size: 14px;
+    font-style: italic;
+}
+
+/*Reviews*/
+.upcp-urp-review-score {
+    color: #ffce00;
+    margin-bottom: 1px;
+}
+
+.thumb-display .upcp-urp-review-score {
+    margin-left: 0%;
+    right: 0px;
+}
