@@ -1,0 +1,50 @@
+@CHARSET "ISO-8859-1";
+
+form.isp_search_box_form{
+	position: relative;
+}
+
+form.isp_search_box_form input[type="text"].isp_search_box_input {
+	background: #fff;
+	border: 2px solid #C9CCCF;
+	box-shadow: none;
+	font-size: 1em;
+	padding: 0.5em 2em 0.5em 1em;
+	margin: 0.2rem 0.2rem 0.2rem 0.2rem;	
+	font-family: inherit;
+	box-sizing: border-box;
+	opacity: 0.8;
+	color: #60626b;
+	border-radius: 1000px;
+	-webkit-border-radius: 1000px;
+	-moz-border-radius: 1000px;
+	-webkit-transition: border 0.5s, opacity 0.5s;
+	-moz-transition: border 0.5s, opacity 0.5s;
+	transition: border 0.5s, opacity 0.5s;
+	float: none;
+	
+	display: block;
+	max-width: 100%;
+}
+
+form.isp_search_box_form input[type="text"].isp_search_box_input:focus{
+	border: 2px solid #707780;
+	opacity: 1;
+}
+
+.isp_search_box_form input[type="image"].isp_widget_btn {
+	border:	none;
+	right:7px;
+	top: calc(50% - 8px); /*the image is 16px high => 50% - 16/2 = middle*/
+	padding: 0;
+	margin: 0;
+	position: absolute; 
+	opacity: 0.5;
+}
+
+.isp_search_box_form input[type="image"].isp_widget_btn:hover{
+	opacity: 1;
+}
+
+
+

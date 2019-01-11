@@ -1,0 +1,20 @@
+*** Storefront Site Logo Changelog ***
+
+1.2.1
+* added alt and title attributes to custom logo
+* remove inline style as it wasn't really needed
+
+1.2
+* added "Logo image and tagline" option as requested (here)[https://wordpress.org/support/topic/logo-tagline-1]
+* made plugin compatible with WordPress 4.4 and Storefront 1.5.3
+
+1.1.1
+* fixed - logo not auto-linking to homepage
+
+1.1.0
+* added language support
+* updated plugin to use storefront extension boilerplate
+* changed logo wrapper class to match default css
+
+1.0.0
+* initial release

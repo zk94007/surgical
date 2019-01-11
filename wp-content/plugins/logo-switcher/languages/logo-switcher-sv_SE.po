@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Logo Switcher\n"
+"POT-Creation-Date: 2017-02-07 18:34+0000\n"
+"PO-Revision-Date: 2017-02-07 18:36+0000\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: init.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: sv_SE\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/plugin.php:26
+msgid "Choose your logo"
+msgstr "Välj din logo"
+
+#: inc/plugin.php:26
+msgid ""
+"Note: The logo will replace the default WordPress logo on the login screen. "
+"This can be changed on the settings page of the plugin."
+msgstr ""
+
+#: inc/settings.php:16
+msgid "Settings"
+msgstr "Inställningar"
+
+#: inc/settings.php:23
+msgid "Show logo on the login screen?"
+msgstr ""
+
+#: inc/settings.php:38
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/settings.php:39
+msgid "No"
+msgstr "Nej"
+
+#: inc/settings.php:45
+msgid ""
+"With this settings page, you have full control over your logo on the login "
+"screen. The default option is that your logo is shown, and by turning it "
+"off, the default WordPress logo will appear."
+msgstr ""
+
+#: inc/settings.php:50
+msgid "Currently uploaded logo:"
+msgstr "Närvarande uppladdad logo:"
+
+#: inc/settings.php:55
+msgid "You haven't uploaded a logo yet"
+msgstr "Du har inte laddat upp en logotyp ännu"
+
+#. Plugin Name of the plugin/theme
+#: inc/settings.php:62
+msgid "Logo Switcher"
+msgstr "Logo Switcher"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/IversenCarpeNoctem/logo-switcher"
+msgstr "https://github.com/IversenCarpeNoctem/logo-switcher"
+
+#. Description of the plugin/theme
+msgid ""
+"Logo Switcher is a super lightweight Wordpress plugin that easily allow you "
+"implement your own logo on your website. Simply download and activate the "
+"plugin, then hover over «Appearance» and click on «Customize». Then you will "
+"be able to upload your own logo to use on your website."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Iversen - Carpe Noctem"
+msgstr "Iversen - Carpe Noctem"
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/IversenCarpeNoctem"
+msgstr "https://github.com/IversenCarpeNoctem"

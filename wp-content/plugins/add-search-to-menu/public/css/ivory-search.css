@@ -1,0 +1,172 @@
+.is-menu {
+	position: relative;
+}
+
+.is-menu a {
+	outline: 0;
+}
+
+.is-menu a::before,
+.is-menu a::after {
+	display: none !important;
+}
+
+.is-menu:hover > a,
+.is-menu a:hover,
+.is-menu a:focus {
+	background: transparent !important;
+	outline: none;
+}
+
+.is-menu.default form {
+	max-width: 300px;
+	position: static;
+}
+
+.is-menu.dropdown form {
+	display: none;
+	min-width: 300px;
+	max-width: 100%;
+	position: absolute;
+	right: 0;
+	top: 100%;
+	z-index: 9;
+}
+
+.is-menu.full-width-menu form,
+.is-menu.sliding form {
+	min-width: 0 !important;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	top: 10%;
+	width: 0;
+	z-index: 9;
+
+}
+
+.is-menu.full-width-menu.active-search {
+	top: 0;
+	position: absolute;
+	right: 0;
+	width: 100%;
+}
+
+.is-menu.full-width-menu.active-search a {
+	display: none;
+}
+
+.is-menu form .screen-reader-text {
+	display: none;
+}
+
+.is-menu form label {
+	margin: 0;
+	padding: 0;
+}
+
+.is-menu-wrapper {
+	display: none;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 100%;
+	z-index: 9999;
+}
+
+.admin-bar .is-menu-wrapper {
+	top: 51px;
+}
+
+.is-menu-wrapper .is-menu {
+	float: right;
+}
+
+.is-menu-wrapper .is-menu form {
+	right: 0;
+	left: auto;
+}
+
+.gsc-cse-search-menu {
+	max-width: 300px;
+	float: right
+}
+
+.gsc-cse-search-menu .cse .gsc-control-cse,
+.gsc-cse-search-menu .gsc-control-cse {
+	padding: 0;
+}
+
+.search-close {
+	cursor: pointer;
+	display: none;
+	height: 20px;
+	position: absolute;
+	right: -40%;
+	top: 16px;
+	width: 20px;
+	z-index: 99999;
+}
+
+
+/* Premium Code Stripped by Freemius */
+
+
+.popup-search-close:after,
+.search-close:after {
+	border-left: 2px solid #000;
+	content: '';
+	height: 20px;
+	left: 9px;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.popup-search-close:before,
+.search-close:before {
+	border-left: 2px solid #000;
+	content: '';
+	height: 20px;
+	left: 9px;
+	position: absolute;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.is-menu.dropdown form[style="display: block;"] + .search-close,
+.is-menu.full-width-menu.open .search-close,
+.is-menu.sliding.open .search-close {
+	display: block;
+}
+
+.is-highlight {
+	background-color: #FFFFB9;
+        color: #222;
+}
+
+@media screen and ( max-width: 910px ) {
+	.is-menu form {
+		left: 0;
+		min-width: 50%;
+		right: auto;
+	}
+
+	.is-menu.default form{
+		max-width: 100%;
+	}
+
+	.is-menu.full-width-menu.active-search {
+		position: relative;
+	}
+
+	.is-menu-wrapper {
+		display: block;
+	}
+}

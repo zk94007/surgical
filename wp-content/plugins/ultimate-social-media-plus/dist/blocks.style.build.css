@@ -1,0 +1,13 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-ultimate-social-media-plus-sfsi-plus-share-block .fb_iframe_widget {
+  -webkit-appearance: none !important; }

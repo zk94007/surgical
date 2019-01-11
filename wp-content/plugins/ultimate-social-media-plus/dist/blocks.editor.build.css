@@ -1,0 +1,156 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.sfsi_plus_block {
+  min-height: 55px; }
+  .sfsi_plus_block.sfsi_plus_block.sfsi_plus_block img {
+    padding: 0;
+    border: none;
+    max-width: 90%; }
+  .sfsi_plus_block .sfsi_plus_widget .sfsi_plus_linkedin_tool_bdr .sfsi_plus_inside .icon4,
+  .sfsi_plus_block .sfsi_plus_widget .sfsi_plus_gpls_tool_bdr .sfsi_plus_inside .icon1,
+  .sfsi_plus_block .sfsi_plus_widget .sfsi_plus_fb_tool_bdr .sfsi_plus_inside .icon1 {
+    height: auto; }
+  .sfsi_plus_block .sfsi_plus_widget {
+    min-height: 55px; }
+  .sfsi_plus_block .sfsi_plus_widget a img {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    outline: 0;
+    padding: 0 !important;
+    border: none !important;
+    max-width: 100%; }
+  .sfsi_plus_block .sfsiplus_inerCnt {
+    position: relative;
+    z-index: inherit !important;
+    float: left;
+    width: 100%;
+    float: left; }
+  .sfsi_plus_block .sfsi_plus_widget .sfsi_plus_wDiv .sfsi_plus_wicons .sfsiplus_inerCnt a, .sfsi_plus_block .sfsi_plus_widget .sfsi_plus_wDiv .sfsi_plus_wicons .sfsiplus_inerCnt a.sficn {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    /*float: left;*/
+    border: medium none; }
+  .sfsi_plus_block .sfsiplus_norm_row {
+    float: left;
+    min-width: 25px; }
+  .sfsi_plus_block .sfsiplus_norm_row a {
+    border: none;
+    display: inline-block;
+    position: relative; }
+  .sfsi_plus_block .sfsiplus_norm_row .cbtn_vsmall {
+    font-size: 9px;
+    left: -28%;
+    top: 4px; }
+  .sfsi_plus_block .sfsiplus_norm_row .cbtn_vsmall:before {
+    left: 31%;
+    top: -9px;
+    margin-left: -31%; }
+  .sfsi_plus_block .sfsiplus_norm_row {
+    position: relative !important; }
+  .sfsi_plus_block .sfsi_plus_wicons {
+    margin-bottom: 30px;
+    position: relative;
+    padding-top: 5px;
+    display: inline-block; }
+  .sfsi_plus_block .sfsiplus_norm_row .bot_no {
+    padding: 1px 0;
+    font-size: 12px !important;
+    text-align: center;
+    line-height: 12px !important;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 9;
+    border: 1px solid #333;
+    white-space: pre;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 40px;
+    display: inline-block; }
+    .sfsi_plus_block .sfsiplus_norm_row .bot_no:before {
+      content: url("../css/images/count_top_arow.png");
+      position: absolute;
+      height: 9px;
+      margin-left: -7.5px;
+      margin-top: -11px;
+      left: 50%;
+      width: 15px; }
+  .sfsi_plus_block .sfsi_plus_widget.sfsi_plus_widget.sfsi_plus_widget img {
+    border: none;
+    padding: 0; }
+  .sfsi_plus_block .sfsi_plus_Sicons .sf_fb {
+    margin-top: -4px;
+    margin-right: 4px; }
+  .sfsi_plus_block .sfsi_plus_Sicons .sf_twiter {
+    margin-right: 4px; }
+  .sfsi_plus_block .sfsi_plus_Sicons .sf_pinit {
+    margin-top: -3px;
+    margin-right: 4px; }
+
+.gutenberg__editor .sfsi_new_prmium_follw {
+  height: auto !important;
+  min-height: 63px; }
+
+.gutenberg__editor .sfsi_plus_block_text_before_icon {
+  display: inline-block;
+  vertical-align: top; }
+
+.gutenberg__editor .sfsi_plus_block {
+  display: inline-block; }
+  .gutenberg__editor .sfsi_plus_block[data-icon-type="rectangle"] .fb_iframe_widget > span {
+    vertical-align: top !important; }
+  .gutenberg__editor .sfsi_plus_block[data-icon-type="rectangle"] .sf_pinit > span {
+    vertical-align: top !important; }
+
+.sfsi_plus_block_inspector h3, .sfsi_plus_block_inspector label {
+  padding-top: 20px;
+  margin-bottom: 0; }
+
+.sfsi_plus_block_inspector select, .sfsi_plus_block_inspector input[type="text"], .sfsi_plus_block_inspector input[type="number"], .sfsi_plus_block_inspector input[type="email"], .sfsi_plus_block_inspector textarea {
+  width: 100%; }
+
+.sfsi_plus_block_inspector .sfsi_plus_block_iconperrow_body {
+  padding-top: 20px;
+  font-weight: 600; }
+  .sfsi_plus_block_inspector .sfsi_plus_block_iconperrow_body .label {
+    display: inline-block;
+    width: 69%; }
+  .sfsi_plus_block_inspector .sfsi_plus_block_iconperrow_body input {
+    display: inline-block;
+    width: 30%; }
+
+.sfsi_plus_block_inspector .sfsi_plus_block_textbeforeicons {
+  display: inline-block; }
+
+.sfsi_plus_block_inspector .sfsi_plus_block_textbeforeicons_header {
+  padding-top: 10px; }
+
+.sfsi_plus_block_inspector hr {
+  margin: .3em 0; }
+
+.sfsi_plus_block_inspector ul {
+  margin-top: 0; }
+  .sfsi_plus_block_inspector ul.sfsi_plus_block_notes_list {
+    list-style-type: disc;
+    -webkit-padding-start: 20px;
+            padding-inline-start: 20px; }
+
+.sfsi_plus_block_inspector .sfsi_plus_block_ad_heading, .sfsi_plus_block_inspector .sfsi_plus_block_ad_body {
+  text-align: center; }
+
+.sfsi_plus_block_wrapper .sfsi_plus_block, .sfsi_plus_block_wrapper .sfsi_plus_block_text_before_icon {
+  display: inline-block; }
+
+.sfsi_plus_block_wrapper .sfsi_plus_block_text_before_icon {
+  vertical-align: top;
+  margin-top: 10px; }
