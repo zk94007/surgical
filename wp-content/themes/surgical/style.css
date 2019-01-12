@@ -1188,8 +1188,8 @@ a:active {
 .site-footer .widget-area a,
 .posts-navigation a,
 .widget_authors a strong {
-	-webkit-box-shadow: inset 0 -1px 0 rgba(15, 15, 15, 1);
-	box-shadow: inset 0 -1px 0 rgba(15, 15, 15, 1);
+	/* -webkit-box-shadow: inset 0 -1px 0 rgba(15, 15, 15, 1);
+	box-shadow: inset 0 -1px 0 rgba(15, 15, 15, 1); */
 	-webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
 	transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
 	transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
@@ -1277,9 +1277,9 @@ a:hover .nav-title,
 .widget .widget-title a:hover,
 .widget ul li a:focus,
 .widget ul li a:hover {
-	color: #000;
+	/* color: #000;
 	-webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1);
-	box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1);
+	box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1); */
 }
 
 /* Fixes linked images */
@@ -1328,7 +1328,7 @@ a:hover .nav-title,
 }
 
 .navigation-top .wrap {
-	max-width: 1000px;
+	max-width: 87.5rem;
 	padding: 0;
 }
 
@@ -1564,7 +1564,7 @@ body {
 /* Site branding */
 
 .site-branding {
-	padding: 1em 0;
+	padding: 0;
 	position: relative;
 	-webkit-transition: margin-bottom 0.2s;
 	transition: margin-bottom 0.2s;
@@ -2093,7 +2093,7 @@ body:not(.surgical-front-page) .entry-header {
 .archive.page-one-column:not(.has-sidebar) #primary {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 740px;
+	/* max-width: 740px; */
 }
 
 .single-featured-image-header {
@@ -2307,6 +2307,7 @@ body:not(.surgical-front-page) .entry-header {
 
 .site-footer {
 	border-top: 1px solid #eee;
+	background-color: #262626;
 }
 
 .site-footer .wrap {
@@ -3358,7 +3359,7 @@ p > object:only-child {
 	}
 
 	.page-one-column .panel-content .wrap {
-		max-width: 1300px;
+		max-width: 87.5rem;
 		padding-top: 0;
 	}
 
@@ -3388,6 +3389,7 @@ p > object:only-child {
 	.site-footer {
 		font-size: 16px;
 		font-size: 1rem;
+		background-color: #262626;
 	}
 
 	/* Gallery Columns */
@@ -3436,7 +3438,7 @@ p > object:only-child {
 	/* Layout */
 
 	.wrap {
-		max-width: 1000px;
+		max-width: 87.5rem;
 		padding-left: 3em;
 		padding-right: 3em;
 	}
@@ -3545,7 +3547,7 @@ p > object:only-child {
 	}
 
 	.navigation-top .wrap {
-		max-width: 1000px;
+		max-width: 87.5rem;
 		/* The font size is 14px here and we need 50px padding in ems */
 		padding: 0.75em 3.4166666666667em;
 	}
@@ -3789,7 +3791,7 @@ p > object:only-child {
 	.surgical-front-page.has-header-video .custom-header-media,
 	.home.blog.has-header-image .custom-header-media,
 	.home.blog.has-header-video .custom-header-media {
-		height: 1200px;
+		height: 87.5rem;
 		height: 100vh;
 		max-height: 100%;
 		overflow: hidden;
@@ -3816,7 +3818,7 @@ p > object:only-child {
 
 	.panel-image {
 		height: 100vh;
-		max-height: 1200px;
+		max-height: 87.5rem;
 	}
 
 	/* With panel images 100% of the screen height, we're going to fix the background image where supported to create a parallax-like effect. */
@@ -4098,7 +4100,6 @@ p > object:only-child {
 
 	.site-footer .widget-column.footer-widget-1 {
 		float: left;
-		width: 36%;
 	}
 
 	.site-footer .widget-column.footer-widget-2 {
@@ -4266,6 +4267,7 @@ p > object:only-child {
 	.site-footer,
 	.single-featured-image-header {
 		border: 0;
+		background-color: #262626;
 	}
 
 	/* Font sizes */
@@ -4390,5 +4392,123 @@ p > object:only-child {
 
 	.site-footer {
 		padding: 0;
+		background-color: #262626;
 	}
 }
+.footer-widget-1 {
+	position: relative;
+}
+.footer-widget-1 section{
+	float: left;
+	width: 20.5rem;
+	border: none;
+	
+}
+.footer-widget-1 section img {
+	width: 12.5rem;
+}
+
+.footer-widget-1 section .widget-title {
+	color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    font-weight: 700;
+	margin: 0;
+	border: none;
+} 
+.footer-widget-1 section li {
+	border: none;
+	padding: 0;
+}
+.footer-widget-1 a {
+	color: #fff !important;
+	text-decoration: none !important;
+	font-size: 0.9rem;
+	line-height: 1.4rem;
+	border-bottom: 0;
+	box-shadow: none !important;
+}
+.footer-widget-1 a:hover {
+	color: #ddd !important;
+	text-decoration: none !important;
+	box-shadow: none !important;
+}
+#simple-social-icons-2
+ {
+	 position: absolute;
+	 left: 20rem;
+	 top:8rem;
+	
+ }
+ .footer-widget-1 section#text-4 {
+	 width: 100%;
+	 color: #fff;
+	 font-size: 1rem;
+ }
+ .footer-widget-1 section .global-footer__copyright {
+	float: left;
+	margin-right: 5rem;
+ }
+ .navigation--utility {
+	 float: left;
+ }
+ .navigation--utility a ,.navigation--utility a:hover 
+ {
+	 font-size:1rem;
+	 text-decoration: underline !important;
+ }
+ .site-info {
+	 display: none;
+ }
+ 
+ .logo {
+	float:left;
+	width: 15rem;
+ }
+ #top-menu {
+	float: right;
+	text-align: right;
+ }
+ #top-menu li {
+	 text-align: right;
+	 line-height: 3rem;
+ }
+ #top-menu li .icon {
+	 display: none;
+ }
+ #top-menu a {
+	 font-weight: normal;
+	 font-size: 1rem;
+	 color: #555;
+ }
+ .custom-header {
+	max-height: 0	
+ }
+.site-footer {position: relative;margin-bottom: 3rem;}
+.footer-widget-1 section#text-4, section#text-5 {
+	padding-bottom: 1rem;
+}
+ .footer-widget-1 section#text-5 {
+	width: 100%;
+	position: absolute;
+	bottom: -8rem;
+	right: 1rem;
+ }
+ .site-footer .footer-bottom{
+	 font-weight: bold;
+	 text-align: right;
+	float: right;
+	width: 100%;
+	display: block;
+ }
+ .site-footer .footer-bottom br {
+	 display: none;
+ }
+ .site-footer .footer-bottom select {
+	 width: 20rem;
+	 padding-left: 0.5rem;
+ }
+ .site-footer .footer-bottom .title1{
+	margin-right: 1rem;
+ }

@@ -17,7 +17,9 @@
 		_e( 'Menu', 'surgical' );
 		?>
 	</button>
-
+	<div class="logo">
+		<a href="/"><img src="<?php echo get_theme_file_uri('assets/images/logos/om-logo-burgundy.png'); ?>"></a>
+    </div>
 	<?php wp_nav_menu( array(
 		'theme_location' => 'top',
 		'menu_id'        => 'top-menu',

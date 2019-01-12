@@ -1,0 +1,285 @@
+# Copyright (C) 2018 StudioPress
+# This file is distributed under the GNU General Public License v2.0 (or later).
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Social Icons 3.0.0\n"
+"Report-Msgid-Bugs-To: StudioPress <translations@studiopress.com>\n"
+"POT-Creation-Date: 2018-10-10 13:33:10+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: StudioPress <translations@studiopress.com>\n"
+"Language-Team: English <translations@studiopress.com>\n"
+"X-Generator: grunt-wp-i18n 0.4.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+#: simple-social-icons.php:128
+msgid "Behance URI"
+msgstr ""
+
+#: simple-social-icons.php:129
+msgid "Behance"
+msgstr ""
+
+#: simple-social-icons.php:132
+msgid "Bloglovin URI"
+msgstr ""
+
+#: simple-social-icons.php:133
+msgid "Bloglovin"
+msgstr ""
+
+#: simple-social-icons.php:136
+msgid "Dribbble URI"
+msgstr ""
+
+#: simple-social-icons.php:137
+msgid "Dribbble"
+msgstr ""
+
+#: simple-social-icons.php:140
+msgid "Email URI"
+msgstr ""
+
+#: simple-social-icons.php:141
+msgid "Email"
+msgstr ""
+
+#: simple-social-icons.php:144
+msgid "Facebook URI"
+msgstr ""
+
+#: simple-social-icons.php:145
+msgid "Facebook"
+msgstr ""
+
+#: simple-social-icons.php:148
+msgid "Flickr URI"
+msgstr ""
+
+#: simple-social-icons.php:149
+msgid "Flickr"
+msgstr ""
+
+#: simple-social-icons.php:152
+msgid "GitHub URI"
+msgstr ""
+
+#: simple-social-icons.php:153
+msgid "GitHub"
+msgstr ""
+
+#: simple-social-icons.php:156
+msgid "Google+ URI"
+msgstr ""
+
+#: simple-social-icons.php:157
+msgid "Google+"
+msgstr ""
+
+#: simple-social-icons.php:160
+msgid "Instagram URI"
+msgstr ""
+
+#: simple-social-icons.php:161
+msgid "Instagram"
+msgstr ""
+
+#: simple-social-icons.php:164
+msgid "Linkedin URI"
+msgstr ""
+
+#: simple-social-icons.php:165
+msgid "LinkedIn"
+msgstr ""
+
+#: simple-social-icons.php:168
+msgid "Medium URI"
+msgstr ""
+
+#: simple-social-icons.php:169
+msgid "Medium"
+msgstr ""
+
+#: simple-social-icons.php:172
+msgid "Periscope URI"
+msgstr ""
+
+#: simple-social-icons.php:173
+msgid "Periscope"
+msgstr ""
+
+#: simple-social-icons.php:176
+msgid "Phone URI"
+msgstr ""
+
+#: simple-social-icons.php:177
+msgid "Phone"
+msgstr ""
+
+#: simple-social-icons.php:180
+msgid "Pinterest URI"
+msgstr ""
+
+#: simple-social-icons.php:181
+msgid "Pinterest"
+msgstr ""
+
+#: simple-social-icons.php:184
+msgid "RSS URI"
+msgstr ""
+
+#: simple-social-icons.php:185
+msgid "RSS"
+msgstr ""
+
+#: simple-social-icons.php:188
+msgid "Snapchat URI"
+msgstr ""
+
+#: simple-social-icons.php:189
+msgid "Snapchat"
+msgstr ""
+
+#: simple-social-icons.php:192
+msgid "StumbleUpon URI"
+msgstr ""
+
+#: simple-social-icons.php:193
+msgid "StumbleUpon"
+msgstr ""
+
+#: simple-social-icons.php:196
+msgid "Tumblr URI"
+msgstr ""
+
+#: simple-social-icons.php:197
+msgid "Tumblr"
+msgstr ""
+
+#: simple-social-icons.php:200
+msgid "Twitter URI"
+msgstr ""
+
+#: simple-social-icons.php:201
+msgid "Twitter"
+msgstr ""
+
+#: simple-social-icons.php:204
+msgid "Vimeo URI"
+msgstr ""
+
+#: simple-social-icons.php:205
+msgid "Vimeo"
+msgstr ""
+
+#: simple-social-icons.php:208
+msgid "Xing URI"
+msgstr ""
+
+#: simple-social-icons.php:209
+msgid "xing"
+msgstr ""
+
+#: simple-social-icons.php:212
+msgid "YouTube URI"
+msgstr ""
+
+#: simple-social-icons.php:213
+msgid "YouTube"
+msgstr ""
+
+#: simple-social-icons.php:238
+msgid "Displays select social icons."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Simple Social Icons"
+msgstr ""
+
+#: simple-social-icons.php:325
+msgid "Title:"
+msgstr ""
+
+#: simple-social-icons.php:327
+msgid "Open links in new window?"
+msgstr ""
+
+#: simple-social-icons.php:331
+msgid "Icon Size"
+msgstr ""
+
+#: simple-social-icons.php:333
+msgid "Icon Border Radius:"
+msgstr ""
+
+#: simple-social-icons.php:335
+msgid "Border Width:"
+msgstr ""
+
+#: simple-social-icons.php:338
+msgid "Alignment"
+msgstr ""
+
+#: simple-social-icons.php:340
+msgid "Align Left"
+msgstr ""
+
+#: simple-social-icons.php:341
+msgid "Align Center"
+msgstr ""
+
+#: simple-social-icons.php:342
+msgid "Align Right"
+msgstr ""
+
+#: simple-social-icons.php:348
+msgid "Icon Color:"
+msgstr ""
+
+#: simple-social-icons.php:350
+msgid "Icon Hover Color:"
+msgstr ""
+
+#: simple-social-icons.php:352
+msgid "Background Color:"
+msgstr ""
+
+#: simple-social-icons.php:354
+msgid "Background Hover Color:"
+msgstr ""
+
+#: simple-social-icons.php:356
+msgid "Border Color:"
+msgstr ""
+
+#: simple-social-icons.php:358
+msgid "Border Hover Color:"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/simple-social-icons/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A simple CSS and SVG driven social icons widget."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "StudioPress"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.studiopress.com/"
+msgstr ""

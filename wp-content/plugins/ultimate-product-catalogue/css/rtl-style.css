@@ -1,0 +1,153 @@
+/*
+* Basic styling options for the Ultimate Product Catalogue Plugin. There are general
+* settings as well as three catalogue types with their own styles. Additionally,
+* there are many classes inserted into the catalogue which aren't used in this file.
+*/
+
+/* General */
+
+/*** Large Screen ***/
+.prod-cat-sidebar{
+		margin-left: 0px;
+		margin-right: 12px;
+}
+.prod-cat-header-padding {
+		float:right;
+}
+/*** Screen width 748px-1007px ***/
+@media only screen and (min-width: 748px) and (max-width: 1007px) {
+    .prod-cat-sidebar,
+		.prod-cat-inner,
+		.prod-cat {
+        float: right;
+    }
+}
+/*** Screen width under 747px ***/
+@media only screen and (max-width: 747px) {
+    .prod-cat-sidebar,
+		.prod-cat-inner,
+		.prod-cat {
+        float: right;
+    }
+}
+
+/* Product Catalogue */
+.prod-cat-inner {
+	float:left;
+}
+.prod-cat-category-label {
+	margin-right:-2px;
+	margin-left:0px;
+}
+
+/* Sidebar */
+.prod-cat-sidebar {
+  float:right;
+}
+
+/* Thumbnail Display-Specific Styles */
+.upcp-thumb-toggle-icon {
+	float:right;
+	margin-left:8px;
+	margin-right:0px;
+}
+.upcp-thumb-item {
+  float: right;
+}
+.upcp-thumb-image-div {
+  margin: 8px 8px 10px 0;
+}
+.upcp-thumb-price {
+	float: right;
+}
+.upcp-thumb-details-link {
+	float: left;
+	margin-left: 6px;
+	margin-right: 0px;
+}
+
+/* List Display-Specific Styles */
+.upcp-list-toggle-icon {
+	float:right;
+	margin-left:8px;
+	margin-right:0px;
+}
+.upcp-list-title {
+	float:right;
+}
+.upcp-list-price {
+	float:left;
+}
+.upcp-list-image-div {
+	float:right;
+}
+.upcp-list-desc {
+  float:right;
+	margin-right:20px;
+  margin-left: 0px;
+}
+.upcp-list-details-link {
+	float: left;
+	margin-right: 0px;
+	margin-left: 30px;
+	padding-left: 0px;
+	padding-right: 100px;
+}
+
+/* Details view styles */
+.upcp-details-toggle-icon {
+	float:right;
+	margin-right:0px;
+	margin-left:8px;
+}
+.upcp-detail-image-div {
+	float:right;
+}
+.upcp-mid-detail-div{
+  float:right;
+}
+.upcp-end-detail-div {
+  float:right;
+}
+.upcp-detail-price {
+	float: right;
+	margin-left: 0px;
+	margin-left: 25px;
+}
+.upcp-detail-details-link {
+	float: left;
+	margin-right: 0px;
+	margin-left: 6px;
+}
+
+/* FancyBox styles */
+.prod-cat-addt-details-thumbs-div {
+	float: right;
+}
+.prod-cat-addt-details-title {
+  padding: 5px 40px 10px 0px;
+}
+.upcp-product-url-icon {
+	margin-left:0px;
+	margin-right:20px;
+}
+.prod-cat-addt-details-main-div {
+	float:right;
+	margin-left: 0px;
+	margin-right: 40px;
+}
+.prod-cat-addt-details-desc-div {
+	padding: 10px 15px 10px 10px;
+}
+.prod-cat-addt-details-right-div {
+  float:right;
+	padding-left:0px;
+	padding-right:20px;
+}
+
+@media only screen and (max-width: 670px) {
+		.upcp-list-details-link {
+		  padding-left: 0px;
+			padding-right: 50px;
+		}
+}
